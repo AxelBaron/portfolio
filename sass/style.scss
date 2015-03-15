@@ -1,0 +1,299 @@
+@import "compass/reset";
+@import "compass/css3";
+$orange : #ecc557 ;
+$violetFonce : #101d27;
+$bleuFonce : #556773;
+@font-face{
+    font-family: "AvenirNext";
+    src: url(fonts/avenirnext.ttc);
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: $violetFonce;
+    background-image: url(../imgs/lowpoly.png);
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    overflow: auto;
+    
+    header{
+        overflow: auto;
+        background-color: black;
+        width:100%;
+        height: 90px;
+        z-index: 20;
+        #nav_haute{
+            height: 25px;
+            width: 100%;
+            background: black;
+        }
+        #barre_orange{
+            height: 4px;
+            background: $orange;
+            -webkit-animation-name: orange; /* Chrome, Safari, Opera */
+            -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+            animation-name: orange;
+            animation-duration: 1s;
+        }
+        nav{
+            width: 100%;
+            height: 70px;
+            background: black;
+            oppacity: 0.9;
+            #nav_gauche{
+                width: 40%;
+                float: left;
+                ul{
+                    margin-top: 20px;
+                    li {
+                        a{
+                            color: white;
+                            opacity: 0;
+                            display: block;
+                            text-decoration: none;
+                            font-family: "Avenir Next";
+                            text-align: center;
+                            font-size: 25px;
+                            /* Chrome, Safari, Opera */
+                            -webkit-animation-name: item_menu; 
+                            -webkit-animation-duration: 1s; 
+                            -webkit-animation-delay: 2s; 
+                            -webkit-animation-fill-mode: forwards; 
+                            animation-name: item_menu;
+                            animation-duration: 1s;
+                            animation-delay: 3s;
+                            animation-fill-mode: forwards;
+                            &:hover{
+                                color: $orange;
+                            }
+                        }
+                    }
+                    li:nth-child(1){
+                        width: 50%;
+                        float: left;
+                    }
+                    li:nth-child(2){
+                        width: 50%;
+                        float:right;
+                    }
+                }
+            }
+            #logo{
+                width: 20%;
+                height: 90px;
+                visibility: hidden;
+                position: absolute;
+                margin-left: 40%;
+                background-image: url(../imgs/logo.png);
+                background-size: 71%;
+                background-repeat: no-repeat;
+                background-position: top center;
+                /* Chrome, Safari, Opera */
+                -webkit-animation-name: logo; 
+                -webkit-animation-duration: 1s; 
+                -webkit-animation-delay: 1s; 
+                -webkit-animation-fill-mode: forwards; 
+                animation-name: logo;
+                animation-duration: 1s;
+                animation-delay: 1s;
+                animation-fill-mode: forwards;
+            }
+            #nav_droite{
+                width: 40%;
+                float: right;
+                ul{
+                   margin-top: 20px; 
+                    li {
+                        a{
+                            color: white;
+                            opacity: 0;
+                            display: block;
+                            text-decoration: none;
+                            font-family: "Avenir Next";
+                            text-align: center;
+                            font-size: 25px;
+                            /* Chrome, Safari, Opera */
+                            -webkit-animation-name: item_menu; 
+                            -webkit-animation-duration: 1s; 
+                            -webkit-animation-delay: 2s; 
+                            -webkit-animation-fill-mode: forwards; 
+                            /*Autres*/
+                            animation-name: item_menu;
+                            animation-duration: 1s;
+                            animation-delay: 3s;
+                            animation-fill-mode: forwards;
+                            &:hover{
+                                color: $orange;
+                            }
+                        }
+                    }
+                    li:nth-child(1){
+                        width: 50%;
+                        float: left;
+                    }
+                    li:nth-child(2){
+                        width: 50%;
+                        float:right;
+                    }
+                }
+            }
+        }
+    }
+    
+    #qui-suis-je{
+        height: 800px;
+        overflow: auto;
+        width: 100%;
+        height: 90%;
+        position:absolute;
+        bottom: 30;
+        z-index: -1;
+        
+        article:nth-child(1){
+            width: 60%;
+            height: 100%;
+            float: left;
+            background-image: url(../imgs/axelbaron.png);
+            background-size: 80%;
+            background-repeat: no-repeat;
+            background-position: center;
+            opacity: 0;
+            /* Chrome, Safari, Opera */
+            -webkit-animation-name: article; 
+            -webkit-animation-duration: 1s; 
+            -webkit-animation-delay: 3s; 
+            -webkit-animation-fill-mode: forwards; 
+            /* Autres*/
+            animation-name: article;
+            animation-duration: 3s;
+            animation-delay: 3s;
+            animation-fill-mode: forwards;
+        }
+        article:nth-child(2){
+            width: 40%;
+            height: 100%;
+            float: right;
+            opacity: 0;
+            
+            
+            #information{
+                background-color: $bleuFonce;
+                width: 50%;
+                height: 50%;
+                margin: auto;
+                margin-top: 25%;
+                
+                #information_haut{
+                    width: 100%;
+                    height: 70px;
+                    background-color: $orange;
+                    background-image: url(../imgs/titreaxelbaron.png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: 80%;
+                }
+            }
+            /* Chrome, Safari, Opera */
+            -webkit-animation-name: article; 
+            -webkit-animation-duration: 1s; 
+            -webkit-animation-delay: 3s; 
+            -webkit-animation-fill-mode: forwards; 
+            animation-name: article;
+            animation-duration: 3s;
+            animation-delay: 3s;
+            animation-fill-mode: forwards;
+        }
+        
+    }
+}
+
+
+
+
+/* CHROME SAFARI OPERA */
+@-webkit-keyframes orange {
+      0% {
+        width: 0%;
+        background: $orange;
+      }
+      100% {
+        width: 100%;
+        background: $orange;
+      }
+}
+
+@keyframes orange {
+    0% {
+        width: 0%;
+        background: $orange;
+      }
+    100% {
+        width: 100%;
+        background: $orange;
+    }
+}
+
+/* CHROME SAFARI OPERA */
+@-webkit-keyframes logo {
+    0% {
+        height: 0px;
+        visibility: visible;
+    }
+    100% {
+        height: 100px;
+        visibility: visible;
+    }
+}
+
+@keyframes logo {
+    0% {
+        height: 0%;
+        visibility: visible;
+    }
+    100% {
+        height: 100%;
+        visibility: visible;
+    }
+}
+
+@-webkit-keyframes item_menu {
+  0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes item_menu {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes article {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes article {
+    0% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
