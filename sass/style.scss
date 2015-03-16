@@ -3,9 +3,15 @@
 $orange : #ecc557 ;
 $violetFonce : #101d27;
 $bleuFonce : #556773;
+$bleuClair: #70818d;
 @font-face{
     font-family: "AvenirNext";
-    src: url(fonts/avenirnext.ttc);
+    src: url(../fonts/avenirnext.ttc);
+}
+
+@font-face{
+    font-family: "Silom";
+    src: url(../fonts/silom.ttf);
 }
 
 html{
@@ -150,7 +156,6 @@ body{
         height: 800px;
         overflow: auto;
         width: 100%;
-        height: 90%;
         position:absolute;
         bottom: 30;
         z-index: -1;
@@ -159,10 +164,17 @@ body{
             width: 60%;
             height: 100%;
             float: left;
-            background-image: url(../imgs/axelbaron.png);
-            background-size: 80%;
-            background-repeat: no-repeat;
-            background-position: center;
+            
+            img{
+                width: 100%;
+                max-width:900px;
+                margin: auto;
+                display: block;
+            }
+//            background-image: url(../imgs/axelbaron.png);
+//            background-size: 80%;
+//            background-repeat: no-repeat;
+//            background-position: center;
             opacity: 0;
             /* Chrome, Safari, Opera */
             -webkit-animation-name: article; 
@@ -184,20 +196,97 @@ body{
             
             #information{
                 background-color: $bleuFonce;
-                width: 50%;
-                height: 50%;
+                width: 450px;;
                 margin: auto;
-                margin-top: 25%;
+                margin-top: 22%;
+                overflow: auto;
                 
-                #information_haut{
+                #haut_orange{
                     width: 100%;
-                    height: 70px;
+                    height: 90px;
                     background-color: $orange;
                     background-image: url(../imgs/titreaxelbaron.png);
                     background-position: center;
                     background-repeat: no-repeat;
                     background-size: 80%;
                 }
+                
+                #intitule_pricipale{
+                    font-family: "Silom";
+                    font-size: 22px;
+                    color: white;
+                    text-align: center;
+                    padding: 20px 0px 12px 0px;
+                }
+                
+                #intitule_secondaire{
+                    font-family: "Silom";
+                    font-size: 14px;
+                    color: #969696;
+                    text-align: center;
+                }
+                
+                #information_contener{
+                    width: 85%;
+                    height: 100%;
+                    margin: auto;
+                    margin-top: 30px;
+                    
+                    p{
+                        font-family: "Avenir Next";
+                        font-size: 16px;
+                        text-align: justify;
+                        line-height: 20px;
+                        color: white;
+                        
+                    }
+                    
+                    p:nth-child(2){
+                        font-size: 18px;
+                        text-align: center;
+                        line-height: 20px;
+                        color: white;
+                        background:black;
+                        padding: 10px 10px 10px 10px;
+                        margin-top:20px;
+                        
+                    }
+                    
+                    #rs{
+                        width: 100%;
+                        overflow: auto;
+                        text-align: center;
+                        margin-top: 10px;
+                        
+                        a{
+                            overflow: auto;
+                            
+                            img{
+                                width: 40px;
+                            }
+                            
+                            img:nth-child(1){
+                                margin: 0px 10px 0px 10px;
+                            }
+                            
+                            img:last-child{
+                                width: 40px;
+                            }
+                        }
+                       
+                    }
+                }
+                
+                
+            }
+            
+            #triangle_information{
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 84px 226px 0 226px;
+                border-color: $bleuClair transparent transparent transparent;
+                margin: auto;
             }
             /* Chrome, Safari, Opera */
             -webkit-animation-name: article; 
