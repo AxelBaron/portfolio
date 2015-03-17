@@ -4,6 +4,7 @@ $orange : #ecc557 ;
 $violetFonce : #101d27;
 $bleuFonce : #556773;
 $bleuClair: #70818d;
+$quiSuisJe: #283946;
 @font-face{
     font-family: "AvenirNext";
     src: url(../fonts/avenirnext.ttc);
@@ -316,14 +317,30 @@ body{
         animation-duration: 3s;
         animation-delay: 3s;
         animation-fill-mode: forwards;
+        background: fixed;
             
     }
-    
-    .ligne_bleu{
+   
+    #intitule_pricipale{
+          font-size: 42px;
+          font-family: "Avenir Next";
+          color: #cec5c5;
+          text-align: center;
+        margin-bottom: 40px;
+    }
+        
+    #intitule_secondaire{
+                    font-family: "Silom";
+                    font-size: 12px;
+                    color: #969696;
+                    text-align: center;
+    }
+        
+    .ligne_qui-suis-je{
         margin-top: 10px;
         height: 4px;
         width: 100%;
-        background: $bleuFonce;
+        background: #101d27;
     }
     
     .triangle_qui_suis_je{
@@ -342,7 +359,7 @@ body{
         max-width: 100%;
         margin: auto;
         bottom: 30;
-        background-color: #254258;
+        background-color: $quiSuisJe;
         overflow: auto;
         
         article:nth-child(1){
@@ -369,7 +386,7 @@ body{
                 color: white;
                 text-align: justify;
                 margin: 20px 0px 20px 0px;
-                line-height: 20px;
+                line-height: 30px;
                 font-size: 16px;
             }
             
@@ -388,7 +405,6 @@ body{
             
             #rs{
                 width: 100%;
-                overflow: auto;
                 text-align: center;
                 margin: 20px 0px 20px 0px;;
 
@@ -408,6 +424,61 @@ body{
             }
         }
         
+    }
+    
+    .ligne_cv{
+        height: 4px;
+        width: 100%;
+        background: $quiSuisJe;
+    }
+    
+    .triangle_cv{
+        width: 20%;
+        height: 100px;
+        position: absolute;
+        margin-left: 40%;
+        background-image: url(../imgs/cv.png);
+        background-size: 71%;
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+    
+    #cv{
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        bottom: 30;
+        background-color: $bleuFonce;
+        overflow: auto;
+        
+        article:nth-child(1){
+            width: 960px;
+            margin: auto;
+            font-family: "Avenir Next";
+            
+            h1{
+                color: white;
+                font-size: 35px;
+                text-align: center;
+                margin-top: 150px;
+                
+            }
+            
+            hr{
+               height: 2px;
+                background-color: white;
+                border: 0;
+                width: 200px;
+            }
+            
+            p{
+                color: white;
+                text-align: justify;
+                margin: 20px 0px 20px 0px;
+                line-height: 30px;
+                font-size: 16px;
+            }
+        }
 //        article:nth-child(2){
 //            width: 40%;
 //            height: 100%;
@@ -432,20 +503,9 @@ body{
 //                    background-size: 80%;
 //                }
 //                
-//                #intitule_pricipale{
-//                    font-family: "Silom";
-//                    font-size: 20px;
-//                    color: white;
-//                    text-align: center;
-//                    padding: 20px 0px 12px 0px;
-//                }
 //                
-//                #intitule_secondaire{
-//                    font-family: "Silom";
-//                    font-size: 12px;
-//                    color: #969696;
-//                    text-align: center;
-//                }
+//                
+//                
 //                
 //                #information_contener{
 //                    width: 85%;

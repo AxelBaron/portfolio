@@ -113,6 +113,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/imgs\/cv.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29644,
+		"inputAbbreviatedPath": "\/imgs\/cv.png",
+		"outputAbbreviatedPath": "\/imgs\/cv.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/imgs\/facebook.png": {
 		"fileType": 32768,
 		"ignore": 0,
