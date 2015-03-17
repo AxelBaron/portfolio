@@ -164,7 +164,7 @@ body{
             
             img{
                 width: 100%;
-                max-width:900px;
+                max-width:730px;
                 margin: auto;
                 margin-top: 20px;
                 display: block;
@@ -194,7 +194,7 @@ body{
             
             #information{
                 background-color: $bleuFonce;
-                width: 450px;;
+                width: 400px;;
                 margin: auto;
                 margin-top: 22%;
                 overflow: auto;
@@ -211,7 +211,7 @@ body{
                 
                 #intitule_pricipale{
                     font-family: "Silom";
-                    font-size: 22px;
+                    font-size: 20px;
                     color: white;
                     text-align: center;
                     padding: 20px 0px 12px 0px;
@@ -219,7 +219,7 @@ body{
                 
                 #intitule_secondaire{
                     font-family: "Silom";
-                    font-size: 14px;
+                    font-size: 12px;
                     color: #969696;
                     text-align: center;
                 }
@@ -232,7 +232,7 @@ body{
                     
                     p{
                         font-family: "Avenir Next";
-                        font-size: 16px;
+                        font-size: 14px;
                         text-align: justify;
                         line-height: 20px;
                         color: white;
@@ -240,7 +240,7 @@ body{
                     }
                     
                     p:nth-child(2){
-                        font-size: 18px;
+                        font-size: 16px;
                         text-align: center;
                         line-height: 20px;
                         color: white;
@@ -282,7 +282,7 @@ body{
                 width: 0;
                 height: 0;
                 border-style: solid;
-                border-width: 84px 226px 0 226px;
+                border-width: 54px 200px 0 200px;
                 border-color: $bleuClair transparent transparent transparent;
                 margin: auto;
             }
