@@ -27,11 +27,11 @@ body{
     overflow: auto;
     
     header{
-        overflow: auto;
         background-color: black;
         width:100%;
         height: 90px;
         z-index: 20;
+        position: fixed;
         #nav_haute{
             height: 25px;
             width: 100%;
@@ -148,162 +148,361 @@ body{
                 }
             }
         }
+        
+        #transparente{
+            width: 100%;
+            height:50px;
+            opacity: 0;
+        }
+    }
+    
+    .fil_orange{
+        width: 0%;
+        height: 2px;
+        position: relative;
+        top :200px;
+        
+        /* Chrome, Safari, Opera */
+        -webkit-animation-name: fil_orange; 
+        -webkit-animation-duration: 10s; 
+        -webkit-animation-delay: 3s; 
+        -webkit-animation-iteration-count:infinite;
+        -webkit-animation-timing-function:linear;
+        /* Autres*/
+        animation-name: orange; 
+        animation-duration: 3s; 
+        animation-delay: 3s; 
+        animation: leaves O.3s;
+        animation-iteration-count:infinite;
+    }
+    
+    .fil_bleu_clair{
+        width: 0%;
+        height: 4px;
+        position: relative;
+        top :250px;
+        
+        /* Chrome, Safari, Opera */
+        -webkit-animation-name: fil_bleu_clair; 
+        -webkit-animation-duration: 5s; 
+        -webkit-animation-delay: 6s; 
+        -webkit-animation-iteration-count:infinite;
+        -webkit-animation-timing-function:linear;
+        /* Autres*/
+        animation-name: orange; 
+        animation-duration: 3s; 
+        animation-delay: 3s; 
+        animation: leaves O.3s;
+        animation-iteration-count:infinite;
+    }
+    
+    .fil_orange_2{
+        width: 0%;
+        height: 3px;
+        position: relative;
+        top :320px;
+        
+        /* Chrome, Safari, Opera */
+        -webkit-animation-name: fil_orange; 
+        -webkit-animation-duration: 30s; 
+        -webkit-animation-delay: 8s; 
+        -webkit-animation-iteration-count:infinite;
+        -webkit-animation-timing-function:linear;
+        /* Autres*/
+        animation-name: orange; 
+        animation-duration: 3s; 
+        animation-delay: 3s; 
+        animation: leaves O.3s;
+        animation-iteration-count:infinite;
+    }
+    
+    .fil_bleu_fonce{
+        width: 0%;
+        height: 6px;
+        position: relative;
+        top :350px;
+        
+        /* Chrome, Safari, Opera */
+        -webkit-animation-name: fil_bleu_fonce; 
+        -webkit-animation-duration: 5s; 
+        -webkit-animation-delay: 9s; 
+        -webkit-animation-iteration-count:infinite;
+        -webkit-animation-timing-function:linear;
+        /* Autres*/
+        animation-name: orange; 
+        animation-duration: 3s; 
+        animation-delay: 3s; 
+        animation: leaves O.3s;
+        animation-iteration-count:infinite;
+    }
+    
+    .fil_bleu_clair_2{
+        width: 0%;
+        height: 1px;
+        position: relative;
+        top :400px;
+        
+        /* Chrome, Safari, Opera */
+        -webkit-animation-name: fil_bleu_clair; 
+        -webkit-animation-duration: 48s; 
+        -webkit-animation-delay: 7s; 
+        -webkit-animation-iteration-count:infinite;
+        -webkit-animation-timing-function:linear;
+        /* Autres*/
+        animation-name: orange; 
+        animation-duration: 3s; 
+        animation-delay: 3s; 
+        animation: leaves O.3s;
+        animation-iteration-count:infinite;
+    }
+    
+    .fil_orange_3{
+        width: 0%;
+        height: 1px;
+        position: relative;
+        top :420px;
+        
+        /* Chrome, Safari, Opera */
+        -webkit-animation-name: fil_orange; 
+        -webkit-animation-duration: 25s; 
+        -webkit-animation-delay: 6.7s; 
+        -webkit-animation-iteration-count:infinite;
+        -webkit-animation-timing-function:linear;
+        /* Autres*/
+        animation-name: orange; 
+        animation-duration: 3s; 
+        animation-delay: 3s; 
+        animation: leaves O.3s;
+        animation-iteration-count:infinite;
+    }
+    
+    .fil_bleu_fonce_2{
+        width: 0%;
+        height: 1px;
+        position: relative;
+        top :470px;
+        
+        /* Chrome, Safari, Opera */
+        -webkit-animation-name: fil_bleu_fonce; 
+        -webkit-animation-duration: 33s; 
+        -webkit-animation-delay: 4.8s; 
+        -webkit-animation-iteration-count:infinite;
+        -webkit-animation-timing-function:linear;
+        /* Autres*/
+        animation-name: orange; 
+        animation-duration: 3s; 
+        animation-delay: 3s; 
+        animation: leaves O.3s;
+        animation-iteration-count:infinite;
+    }
+    
+    #illustration{
+        
+        width: 100%;
+        max-width:730px;
+        margin: auto;
+        margin-top: 120px;
+        display: block;
+        z-index: -1;
+        opacity: 0;
+        /* Chrome, Safari, Opera */
+        -webkit-animation-name: article; 
+        -webkit-animation-duration: 1s; 
+        -webkit-animation-delay: 3s; 
+        -webkit-animation-fill-mode: forwards; 
+        /* Autres*/
+        animation-name: article;
+        animation-duration: 3s;
+        animation-delay: 3s;
+        animation-fill-mode: forwards;
+            
+    }
+    
+    .ligne_bleu{
+        margin-top: 10px;
+        height: 4px;
+        width: 100%;
+        background: $bleuFonce;
+    }
+    
+    .triangle_qui_suis_je{
+        width: 20%;
+        height: 100px;
+        position: absolute;
+        margin-left: 40%;
+        background-image: url(../imgs/qui-suis-je.png);
+        background-size: 71%;
+        background-repeat: no-repeat;
+        background-position: top center;
     }
     
     #qui-suis-je{
         width: 100%;
-        max-width: 1200px;
+        max-width: 100%;
         margin: auto;
         bottom: 30;
-        z-index: -1;
+        background-color: #254258;
         overflow: auto;
-        margin-top: 10px;;
         
         article:nth-child(1){
-            width: 60%;
-            height: 100%;
-            float: left;
+            width: 960px;
+            margin: auto;
+            font-family: "Avenir Next";
             
-            img{
+            h1{
+                color: white;
+                font-size: 35px;
+                text-align: center;
+                margin-top: 150px;
+                
+            }
+            
+            hr{
+               height: 2px;
+                background-color: white;
+                border: 0;
+                width: 200px;
+            }
+            
+            p{
+                color: white;
+                text-align: justify;
+                margin: 20px 0px 20px 0px;
+                line-height: 20px;
+                font-size: 16px;
+            }
+            
+            .annonce{
+                font-size: 16px;
+                text-align: center;
+                line-height: 20px;
+                color: black;
+                background: $orange;
+                padding: 10px 10px 10px 10px;
+                margin-top:20px; 
+                margin: auto;
+                width: 500px;
+                margin-bottom: 150px;
+            }
+            
+            #rs{
                 width: 100%;
-                max-width:730px;
-                margin: auto;
-                margin-top: 20px;
-                display: block;
-            }
-//            background-image: url(../imgs/axelbaron.png);
-//            background-size: 80%;
-//            background-repeat: no-repeat;
-//            background-position: center;
-            opacity: 0;
-            /* Chrome, Safari, Opera */
-            -webkit-animation-name: article; 
-            -webkit-animation-duration: 1s; 
-            -webkit-animation-delay: 3s; 
-            -webkit-animation-fill-mode: forwards; 
-            /* Autres*/
-            animation-name: article;
-            animation-duration: 3s;
-            animation-delay: 3s;
-            animation-fill-mode: forwards;
-        }
-        article:nth-child(2){
-            width: 40%;
-            height: 100%;
-            float: right;
-            opacity: 0;
-            
-            
-            #information{
-                background-color: $bleuFonce;
-                width: 400px;;
-                margin: auto;
-                margin-top: 22%;
                 overflow: auto;
-                
-                #haut_orange{
-                    width: 100%;
-                    height: 90px;
-                    background-color: $orange;
-                    background-image: url(../imgs/titreaxelbaron.png);
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: 80%;
-                }
-                
-                #intitule_pricipale{
-                    font-family: "Silom";
-                    font-size: 20px;
-                    color: white;
-                    text-align: center;
-                    padding: 20px 0px 12px 0px;
-                }
-                
-                #intitule_secondaire{
-                    font-family: "Silom";
-                    font-size: 12px;
-                    color: #969696;
-                    text-align: center;
-                }
-                
-                #information_contener{
-                    width: 85%;
-                    height: 100%;
-                    margin: auto;
-                    margin-top: 30px;
-                    
-                    p{
-                        font-family: "Avenir Next";
-                        font-size: 14px;
-                        text-align: justify;
-                        line-height: 20px;
-                        color: white;
-                        
+                text-align: center;
+                margin: 20px 0px 20px 0px;;
+
+                a{
+                    overflow: auto;
+                    img{
+                        width: 40px;
                     }
-                    
-                    p:nth-child(2){
-                        font-size: 16px;
-                        text-align: center;
-                        line-height: 20px;
-                        color: white;
-                        background:black;
-                        padding: 10px 10px 10px 10px;
-                        margin-top:20px;
-                        
+                    img:nth-child(1){
+                        margin: 0px 10px 0px 10px;
                     }
-                    
-                    #rs{
-                        width: 100%;
-                        overflow: auto;
-                        text-align: center;
-                        margin-top: 10px;
-                        
-                        a{
-                            overflow: auto;
-                            
-                            img{
-                                width: 40px;
-                            }
-                            
-                            img:nth-child(1){
-                                margin: 0px 10px 0px 10px;
-                            }
-                            
-                            img:last-child{
-                                width: 40px;
-                            }
-                        }
+                    img:last-child{
+                        width: 40px;
+                    }
+                }
                        
-                    }
-                }
-                
-                
-            }
-            
-            #triangle_information{
-                width: 0;
-                height: 0;
-                border-style: solid;
-                border-width: 54px 200px 0 200px;
-                border-color: $bleuClair transparent transparent transparent;
-                margin: auto;
-            }
-            /* Chrome, Safari, Opera */
-            -webkit-animation-name: article; 
-            -webkit-animation-duration: 1s; 
-            -webkit-animation-delay: 3s; 
-            -webkit-animation-fill-mode: forwards; 
-            animation-name: article;
-            animation-duration: 3s;
-            animation-delay: 3s;
-            animation-fill-mode: forwards;
-            
-            &:after{
-                content: "";
-                display: block;
-                clear: both;
             }
         }
+        
+//        article:nth-child(2){
+//            width: 40%;
+//            height: 100%;
+//            float: right;
+//            opacity: 0;
+//            
+//            
+//            #information{
+//                background-color: $bleuFonce;
+//                width: 400px;;
+//                margin: auto;
+//                margin-top: 22%;
+//                overflow: auto;
+//                
+//                #haut_orange{
+//                    width: 100%;
+//                    height: 90px;
+//                    background-color: $orange;
+//                    background-image: url(../imgs/titreaxelbaron.png);
+//                    background-position: center;
+//                    background-repeat: no-repeat;
+//                    background-size: 80%;
+//                }
+//                
+//                #intitule_pricipale{
+//                    font-family: "Silom";
+//                    font-size: 20px;
+//                    color: white;
+//                    text-align: center;
+//                    padding: 20px 0px 12px 0px;
+//                }
+//                
+//                #intitule_secondaire{
+//                    font-family: "Silom";
+//                    font-size: 12px;
+//                    color: #969696;
+//                    text-align: center;
+//                }
+//                
+//                #information_contener{
+//                    width: 85%;
+//                    height: 100%;
+//                    margin: auto;
+//                    margin-top: 30px;
+//                    
+//                    p{
+//                        font-family: "Avenir Next";
+//                        font-size: 14px;
+//                        text-align: justify;
+//                        line-height: 20px;
+//                        color: white;
+//                        
+//                    }
+//                    
+//                    p:nth-child(2){
+//                        font-size: 16px;
+//                        text-align: center;
+//                        line-height: 20px;
+//                        color: white;
+//                        background:black;
+//                        padding: 10px 10px 10px 10px;
+//                        margin-top:20px;
+//                        
+//                    }
+//                    
+//                    
+//                }
+                
+//                
+//            //}
+//            
+//            #triangle_information{
+//                width: 0;
+//                height: 0;
+//                border-style: solid;
+//                border-width: 54px 200px 0 200px;
+//                border-color: $bleuClair transparent transparent transparent;
+//                margin: auto;
+//            }
+//            /* Chrome, Safari, Opera */
+//            -webkit-animation-name: article; 
+//            -webkit-animation-duration: 1s; 
+//            -webkit-animation-delay: 3s; 
+//            -webkit-animation-fill-mode: forwards; 
+//            
+//            animation-name: article;
+//            animation-duration: 3s;
+//            animation-delay: 3s;
+//            animation-fill-mode: forwards;
+//            
+//            &:after{
+//                content: "";
+//                display: block;
+//                clear: both;
+//            }
+//        }
         
     }
 }
@@ -386,9 +585,106 @@ body{
 
 @keyframes article {
     0% {
-        visibility: hidden;
+        opacity: 0;
     }
     100% {
-        visibility: visible;
+        opacity: 1;
     }
+}
+
+@-webkit-keyframes fil_orange {
+    0% {
+        width: 0%;
+        background: $orange;
+        opacity:1;
+    }
+    
+    40%{
+        opacity:0.4;
+    }
+    
+    50% {
+
+        width: 100%;
+        background: $orange;
+        opacity:0.1;
+    }
+    51% {
+        opacity: 0;
+        background: $orange
+    }
+    100% {
+        opacity: 0;
+        background: $orange
+    }
+    
+}
+
+@keyframes fil_orange {
+    0% {
+        width: 0%;
+        background: $orange
+    }
+    
+    50% {
+
+        width: 100%;
+        background: $orange
+    }
+}
+
+@-webkit-keyframes fil_bleu_clair {
+    0% {
+        width: 0%;
+        background: $bleuClair;
+        opacity:1;
+    }
+    
+    40%{
+        opacity:0.4;
+    }
+    
+    50% {
+
+        width: 100%;
+        background: $bleuClair;
+        opacity:0.1;
+    }
+    51% {
+        opacity: 0;
+        background: $bleuClair;
+    }
+    100% {
+        opacity: 0;
+        background: $bleuClair;
+    }
+    
+}
+
+@-webkit-keyframes fil_bleu_fonce {
+    0% {
+        width: 0%;
+        background: $bleuFonce;
+        opacity:1;
+    }
+    
+    40%{
+        opacity:0.4;
+    }
+    
+    50% {
+
+        width: 100%;
+        background: $bleuFonce;
+        opacity:0.1;
+    }
+    51% {
+        opacity: 0;
+        background: $bleuFonce;
+    }
+    100% {
+        opacity: 0;
+        background: $bleuFonce;
+    }
+    
 }
