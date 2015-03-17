@@ -38,15 +38,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/style.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/imgs\/ab.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -113,6 +104,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/imgs\/facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27709,
+		"inputAbbreviatedPath": "\/imgs\/facebook.png",
+		"outputAbbreviatedPath": "\/imgs\/facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/imgs\/fb.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -142,6 +144,28 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/imgs\/in.png",
 		"outputAbbreviatedPath": "\/imgs\/in.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/linkdin.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28981,
+		"inputAbbreviatedPath": "\/imgs\/linkdin.png",
+		"outputAbbreviatedPath": "\/imgs\/linkdin.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23539,
+		"inputAbbreviatedPath": "\/imgs\/logo.png",
+		"outputAbbreviatedPath": "\/imgs\/logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -197,6 +221,17 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/imgs\/tw.png",
 		"outputAbbreviatedPath": "\/imgs\/tw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/tweeter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31399,
+		"inputAbbreviatedPath": "\/imgs\/tweeter.png",
+		"outputAbbreviatedPath": "\/imgs\/tweeter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -268,27 +303,11 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
-		},
-	"\/sass\/style.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/style.scss",
-		"outputAbbreviatedPath": "\/css\/style.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
 		}
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Baron Axel",
+"lastSavedByUser": "Lola Grasset",
 "manualImportLinks": {
 	},
 "projectAttributes": {
