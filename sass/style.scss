@@ -5,6 +5,7 @@ $violetFonce : #101d27;
 $bleuFonce : #556773;
 $bleuClair: #70818d;
 $quiSuisJe: #283946;
+$cv:#556773;
 @font-face{
     font-family: "AvenirNext";
     src: url(../fonts/avenirnext.ttc);
@@ -468,103 +469,134 @@ body{
                height: 2px;
                 background-color: white;
                 border: 0;
-                width: 200px;
+                width: 90px;
             }
             
             p{
                 color: white;
-                text-align: justify;
+                text-align: center;
                 margin: 20px 0px 20px 0px;
                 line-height: 30px;
                 font-size: 16px;
             }
+            
+            #formation{
+                h2{
+                    color: white;
+                    font-size: 20px;
+                    text-align: center;
+                    margin-top: 30px;
+                }
+
+                .sous_hr{
+                    width: 600px;;
+                }
+
+                #cv_time_line_2015{
+
+                    img{
+                        width: 100px;
+                        float: left;
+                        padding: 20px;
+                    }
+
+                    p{
+                        float: right;
+                        width: 700px;
+                        padding: 20px;
+                        background-color: #70818d;
+                        text-align: left;
+
+                    }
+
+                    &:after{
+                            content: "";
+                            display: block;
+                            clear: both;
+                        }
+                }
+
+                #cv_time_line_2012{
+                    img{
+                        width: 100px;
+                        float: left;
+                        padding: 20px;
+                    }
+
+                    p{
+                        float: right;
+                        width: 700px;
+                        padding: 20px;
+                        background-color: #70818d;
+                        margin-top: 30px;
+                        text-align: left;
+
+                    }
+
+                    &:after{
+                            content: "";
+                            display: block;
+                            clear: both;
+                        }
+                }
+            }
+            
+            #competences{
+                h2{
+                    color: white;
+                    font-size: 20px;
+                    text-align: center;
+                    margin-top: 30px;
+                }
+
+                .sous_hr{
+                    width: 600px;;
+                }
+            }
+            
+            #xp{
+                h2{
+                    color: white;
+                    font-size: 20px;
+                    text-align: center;
+                    margin-top: 30px;
+                }
+
+                .sous_hr{
+                    width: 600px;;
+                }
+                p{
+                    text-align: left;
+                }
+            }
+            
         }
-//        article:nth-child(2){
-//            width: 40%;
-//            height: 100%;
-//            float: right;
-//            opacity: 0;
-//            
-//            
-//            #information{
-//                background-color: $bleuFonce;
-//                width: 400px;;
-//                margin: auto;
-//                margin-top: 22%;
-//                overflow: auto;
-//                
-//                #haut_orange{
-//                    width: 100%;
-//                    height: 90px;
-//                    background-color: $orange;
-//                    background-image: url(../imgs/titreaxelbaron.png);
-//                    background-position: center;
-//                    background-repeat: no-repeat;
-//                    background-size: 80%;
-//                }
-//                
-//                
-//                
-//                
-//                
-//                #information_contener{
-//                    width: 85%;
-//                    height: 100%;
-//                    margin: auto;
-//                    margin-top: 30px;
-//                    
-//                    p{
-//                        font-family: "Avenir Next";
-//                        font-size: 14px;
-//                        text-align: justify;
-//                        line-height: 20px;
-//                        color: white;
-//                        
-//                    }
-//                    
-//                    p:nth-child(2){
-//                        font-size: 16px;
-//                        text-align: center;
-//                        line-height: 20px;
-//                        color: white;
-//                        background:black;
-//                        padding: 10px 10px 10px 10px;
-//                        margin-top:20px;
-//                        
-//                    }
-//                    
-//                    
-//                }
-                
-//                
-//            //}
-//            
-//            #triangle_information{
-//                width: 0;
-//                height: 0;
-//                border-style: solid;
-//                border-width: 54px 200px 0 200px;
-//                border-color: $bleuClair transparent transparent transparent;
-//                margin: auto;
-//            }
-//            /* Chrome, Safari, Opera */
-//            -webkit-animation-name: article; 
-//            -webkit-animation-duration: 1s; 
-//            -webkit-animation-delay: 3s; 
-//            -webkit-animation-fill-mode: forwards; 
-//            
-//            animation-name: article;
-//            animation-duration: 3s;
-//            animation-delay: 3s;
-//            animation-fill-mode: forwards;
-//            
-//            &:after{
-//                content: "";
-//                display: block;
-//                clear: both;
-//            }
-//        }
         
+    }
+    
+    .ligne_realisations{
+        height: 4px;
+        width: 100%;
+        background: $cv;
+    }
+    
+    .triangle_realisations{
+        width: 20%;
+        height: 100px;
+        position: absolute;
+        margin-left: 40%;
+        background-image: url(../imgs/cv.png);
+        background-size: 71%;
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+    #realisations{
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        bottom: 30;
+        background-color: $bleuFonce;
+        overflow: auto;
     }
 }
 
