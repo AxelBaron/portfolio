@@ -1,11 +1,14 @@
 @import "compass/reset";
 @import "compass/css3";
+* { box-sizing: border-box }
 $orange : #ecc557 ;
 $violetFonce : #101d27;
 $bleuFonce : #556773;
 $bleuClair: #70818d;
 $quiSuisJe: #283946;
 $cv:#556773;
+$realisations:#101d27;
+$contact: #283946;
 @font-face{
     font-family: "AvenirNext";
     src: url(../fonts/avenirnext.ttc);
@@ -542,6 +545,7 @@ body{
             }
             
             #competences{
+                
                 h2{
                     color: white;
                     font-size: 20px;
@@ -552,9 +556,47 @@ body{
                 .sous_hr{
                     width: 600px;;
                 }
+                
+                #gros_logos{
+                    text-align: center;
+                    margin-top: 20px;
+                    img{
+                        width: 100px;
+                        margin : 10px;
+                        
+                    }
+                }
+                
+                #petits_logos{
+                    text-align: center;
+                    img{
+                        width: 100px;
+                        margin : 10px;
+                        
+                    }
+                    
+                    #sass{
+                        width: 60px;
+                    }
+                }
+                
+                #petits_logos_2{
+                    text-align: center;
+                    img{
+                        width: 50px;
+                        margin : 10px;
+                        
+                    }
+                    
+                    #git{
+                        width: 110px;
+                    }
+                }
+                
             }
             
             #xp{
+                margin-top: 70px;
                 h2{
                     color: white;
                     font-size: 20px;
@@ -567,6 +609,10 @@ body{
                 }
                 p{
                     text-align: left;
+                    width: 600px;
+                    margin: auto;
+                    margin-top: 20px;
+                    margin-bottom: 60px;
                 }
             }
             
@@ -585,18 +631,185 @@ body{
         height: 100px;
         position: absolute;
         margin-left: 40%;
-        background-image: url(../imgs/cv.png);
+        background-image: url(../imgs/realisations.png);
         background-size: 71%;
         background-repeat: no-repeat;
         background-position: top center;
     }
+    
     #realisations{
         width: 100%;
         max-width: 100%;
         margin: auto;
         bottom: 30;
-        background-color: $bleuFonce;
+        background-color: $realisations;
         overflow: auto;
+        
+        article:nth-child(1){
+            width: 960px;
+            margin: auto;
+            font-family: "Avenir Next";
+            
+            h1{
+                color: white;
+                font-size: 35px;
+                text-align: center;
+                margin-top: 150px;
+                
+            }
+            
+            hr{
+               height: 2px;
+                background-color: white;
+                border: 0;
+                width: 200px;
+            }
+            
+            p{
+                color: white;
+                text-align: justify;
+                margin: 20px 0px 20px 0px;
+                line-height: 30px;
+                font-size: 16px;
+            }   
+        }
+    }
+    
+    
+    .ligne_contact{
+        height: 4px;
+        width: 100%;
+        background: $realisations;
+    }
+    
+    .triangle_contact{
+        width: 20%;
+        height: 100px;
+        position: absolute;
+        margin-left: 40%;
+        background-image: url(../imgs/contact.png);
+        background-size: 71%;
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+    
+    #contact{
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        bottom: 30;
+        background-color: $contact;
+        overflow: auto;
+        
+        article:nth-child(1){
+            width: 960px;
+            margin: auto;
+            font-family: "Avenir Next";
+            
+            h1{
+                color: white;
+                font-size: 35px;
+                text-align: center;
+                margin-top: 150px;
+                
+            }
+            
+            hr{
+               height: 2px;
+                background-color: white;
+                border: 0;
+                width: 200px;
+            }
+            
+            p{
+                color: white;
+                text-align: center;
+                margin: 20px 0px 60px 0px;
+                line-height: 30px;
+                font-size: 16px;
+            }   
+        }
+    }
+    
+    form{
+        color: white;
+        
+        #ligne_1{
+            width: 100%;
+            margin-bottom: 20px;
+            
+            label{
+                display: block;
+                float: left;
+            }
+            
+            label[for=prenom]{
+                width: 300px;
+                margin-right: 20px;
+                
+                input{
+                    width: 100%;
+                    margin-top: 5px;
+                }
+            }
+
+            label[for=nom]{
+                width: 300px;
+                margin-right: 20px;
+                input{
+                    width: 100%;
+                    margin-top: 5px;
+                }
+            }
+
+            label[for=email]{
+                width: 320px;
+                input{
+                    width: 100%;
+                    margin-top: 5px;
+                }
+            }
+            
+            &:after{
+                content: "";
+                display: block;
+                clear: both;
+            }
+        }
+        
+        input{
+            padding: 5px;
+            margin-top: 5px;
+        }
+        
+        label[for=objet]{
+            input{
+                width: 100%;
+            }
+        }
+        textarea{
+            margin-top: 20px;
+            padding: 5px;
+            max-width: 100%;
+            min-width: 100%;
+            min-height: 300px;
+        }
+        
+        input[type="submit"]{
+            width: 100%;
+            border: none;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color:black;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: $orange;
+        }
+        
+        &::hover{
+            cursor: pointer;
+        }
+        
     }
 }
 

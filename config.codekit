@@ -58,6 +58,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/imgs\/angularjs.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42356,
+		"inputAbbreviatedPath": "\/imgs\/angularjs.png",
+		"outputAbbreviatedPath": "\/imgs\/angularjs.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/imgs\/axelbaron.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -65,6 +76,17 @@
 		"initialSize": 968436,
 		"inputAbbreviatedPath": "\/imgs\/axelbaron.png",
 		"outputAbbreviatedPath": "\/imgs\/axelbaron.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/bootstrap.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28051,
+		"inputAbbreviatedPath": "\/imgs\/bootstrap.png",
+		"outputAbbreviatedPath": "\/imgs\/bootstrap.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -98,6 +120,28 @@
 		"initialSize": 8612,
 		"inputAbbreviatedPath": "\/imgs\/clefa.png",
 		"outputAbbreviatedPath": "\/imgs\/clefa.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/compass.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/imgs\/compass.png",
+		"outputAbbreviatedPath": "\/imgs\/compass.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/css.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20229,
+		"inputAbbreviatedPath": "\/imgs\/css.png",
+		"outputAbbreviatedPath": "\/imgs\/css.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -146,6 +190,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/imgs\/flash.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16533,
+		"inputAbbreviatedPath": "\/imgs\/flash.png",
+		"outputAbbreviatedPath": "\/imgs\/flash.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/git.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33253,
+		"inputAbbreviatedPath": "\/imgs\/git.png",
+		"outputAbbreviatedPath": "\/imgs\/git.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/html.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19850,
+		"inputAbbreviatedPath": "\/imgs\/html.png",
+		"outputAbbreviatedPath": "\/imgs\/html.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/imgs\/html5.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -157,6 +234,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/imgs\/illustrator.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26701,
+		"inputAbbreviatedPath": "\/imgs\/illustrator.png",
+		"outputAbbreviatedPath": "\/imgs\/illustrator.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/imgs\/in.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -164,6 +252,39 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/imgs\/in.png",
 		"outputAbbreviatedPath": "\/imgs\/in.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/indesign.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28417,
+		"inputAbbreviatedPath": "\/imgs\/indesign.png",
+		"outputAbbreviatedPath": "\/imgs\/indesign.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/jQuery.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27637,
+		"inputAbbreviatedPath": "\/imgs\/jQuery.png",
+		"outputAbbreviatedPath": "\/imgs\/jQuery.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/js.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23801,
+		"inputAbbreviatedPath": "\/imgs\/js.png",
+		"outputAbbreviatedPath": "\/imgs\/js.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -201,6 +322,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/imgs\/nodejs.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28285,
+		"inputAbbreviatedPath": "\/imgs\/nodejs.png",
+		"outputAbbreviatedPath": "\/imgs\/nodejs.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/photoshop.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42982,
+		"inputAbbreviatedPath": "\/imgs\/photoshop.png",
+		"outputAbbreviatedPath": "\/imgs\/photoshop.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/imgs\/php.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -219,6 +362,28 @@
 		"initialSize": 21274,
 		"inputAbbreviatedPath": "\/imgs\/qui-suis-je.png",
 		"outputAbbreviatedPath": "\/imgs\/qui-suis-je.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/sass.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62623,
+		"inputAbbreviatedPath": "\/imgs\/sass.png",
+		"outputAbbreviatedPath": "\/imgs\/sass.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/seo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49521,
+		"inputAbbreviatedPath": "\/imgs\/seo.png",
+		"outputAbbreviatedPath": "\/imgs\/seo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -285,6 +450,17 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/imgs\/Twitter_logo_white.png",
 		"outputAbbreviatedPath": "\/imgs\/Twitter_logo_white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/wordpress.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40588,
+		"inputAbbreviatedPath": "\/imgs\/wordpress.png",
+		"outputAbbreviatedPath": "\/imgs\/wordpress.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
