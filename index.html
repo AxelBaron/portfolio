@@ -14,6 +14,7 @@
 		<link rel="stylesheet" href="css/style.css">
 		<script src='jquery-1.11.2.min.js'></script>
 		<script src='smoothScroll.js'></script>
+		<script src="buttonActive.js"></script>
 
 	</head>
 
@@ -157,7 +158,7 @@
 	            <p>Voiçi quelques exemples de mes réalisations. N'hésitez pas à cliquer pour en savoir plus et à utiliser les options de tri!</p>
 	            
 	            <div id="trier_par">
-	               <p> Trier par : </p><button>Tous</button><button>Developpement Web</button><button>Illustration / BD</button><button>Musique</button>
+	               <p> Trier par : </p><button class="buttonActive" id="tous">Tous</button><button onclick="buttonActive()" id="dev">Developpement Web</button><button onclick="buttonActive()" id="Illustration">Illustration / BD</button><button onclick="buttonActive()" id="musique">Musique</button>
 	            </div>
 	            
 	        </article>

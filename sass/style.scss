@@ -683,11 +683,9 @@ body{
             
             #trier_par{
                 width: 100%;
-                background: red;
                 
                 p{
                     width: 120px;
-                    background: blue;
                     margin: 0px;
                     float: left;
                     text-align: left;
@@ -700,11 +698,15 @@ body{
                     padding: 10px 10px 10px 10px;
                     cursor: pointer;
                     color: white;
-                    
-                    &:active{
-                        background-color:$orange;
-                    }
+                    outline: none;
                 }
+                
+                .buttonActive{
+                    background-color:$orange;
+                    color: black;
+                    
+                }
+                
                 
             }
         }
