@@ -1,8 +1,7 @@
-function buttonActive() {
-    $( 'button' ).bind( 'click' , function(){
-        $( 'button' ).removeClass();
-        $( this ).addClass( 'buttonActive' );
-    } );
-}
-
-
+$(document).ready(function () {
+    $('button').bind('click', function () {
+        $('button').removeClass();
+        console.log('coucou');
+        $(this).addClass('buttonActive');
+    });
+});
