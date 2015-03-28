@@ -5,10 +5,12 @@ $orange : #ecc557 ;
 $violetFonce : #101d27;
 $bleuFonce : #556773;
 $bleuClair: #70818d;
+$orangeHover : #ebb912;
 $quiSuisJe: #283946;
 $cv:#556773;
 $realisations:#101d27;
 $contact: #283946;
+
 @font-face{
     font-family: "AvenirNext";
     src: url(../fonts/avenirnext.ttc);
@@ -492,6 +494,8 @@ body{
             }
             
             #formation{
+                width: 600px;
+                margin: auto;
                 h2{
                     color: white;
                     font-size: 20px;
@@ -503,43 +507,20 @@ body{
                     width: 600px;;
                 }
 
-                #cv_time_line_2015{
+                #cv_time_line_2015, #cv_time_line_2012{
 
                     img{
                         width: 100px;
                         float: left;
                         padding: 20px;
-                    }
-
-                    p{
-                        float: right;
-                        width: 700px;
-                        padding: 20px;
-                        background-color: #70818d;
-                        text-align: left;
-
-                    }
-
-                    &:after{
-                            content: "";
-                            display: block;
-                            clear: both;
-                        }
-                }
-
-                #cv_time_line_2012{
-                    img{
-                        width: 100px;
-                        float: left;
-                        padding: 20px;
-                    }
-
-                    p{
-                        float: right;
-                        width: 700px;
-                        padding: 20px;
-                        background-color: #70818d;
                         margin-top: 30px;
+                    }
+
+                    p{
+                        float: right;
+                        width: 500px;
+                        padding: 20px;
+                        background-color: #70818d;
                         text-align: left;
 
                     }
@@ -666,7 +647,7 @@ body{
                 
             }
             
-            hr{
+            #hr_realisation{
                height: 2px;
                 background-color: white;
                 border: 0;
@@ -699,15 +680,95 @@ body{
                     cursor: pointer;
                     color: white;
                     outline: none;
+                    
+                    &:hover{
+                        background-color: $bleuFonce;
+                    }
                 }
                 
                 .buttonActive{
                     background-color:$orange;
                     color: black;
                     
+                    &:hover{
+                        background-color: $orange;
+                    }
                 }
                 
+                #recherche{
+                    display: inline-flex;
+                    float: right;
+                    
+                    input[type='text']{
+                        width: 200px;
+                        height: 33px;
+                        padding: 0px 5px 0px 5px;
+                        outline: none;
+                    }
+                    
+                    input[type='submit']{
+                        width: 90px;
+                        height: 33px;
+                        background: $bleuClair;
+                        border: none;
+                        color:white;
+                        
+                        &:hover{
+                            background:$bleuFonce; 
+                        }
+                    }
+                    
+                }
                 
+                #hr_recherche{
+                        width: 100%;
+                        border-color: $bleuFonce;
+                }
+                
+            }
+            
+            #preview_realisation{
+                width: 100%;
+                
+                .realisation{
+                    float: left;
+                    width: 300px;
+                    height: 200px;
+                    margin-right: 30px;
+                    background-color: violet;
+                    margin-top: 30px;
+                    
+                    a{
+                        img{
+                            width: 100%;
+                            height: 100%; 
+                        }
+                    }
+                }
+                
+                .realisation:nth-child(3n){
+                    margin-right: 0px;
+                    float: right;
+                }
+                
+                &:after{
+                    content: "";
+                    display: block;
+                    clear: both;
+                }
+                
+                button{
+                    width: 100%;
+                    background-color: $orange;
+                    border: none;
+                    padding: 10px;
+                    margin-top: 20px;
+                    cursor: pointer;
+                    
+                    &:hover{
+                        background-color: $orangeHover;
+                    }
+                }
             }
         }
     }
@@ -768,7 +829,7 @@ body{
         }
     }
     
-    form{
+    #contact{
         color: white;
         
         #ligne_1{

@@ -12,9 +12,12 @@
 
 		<!-- Links -->
 		<link rel="stylesheet" href="css/style.css">
-		<script src='jquery-1.11.2.min.js'></script>
-		<script src='smoothScroll.js'></script>
-		<script src="buttonActive.js"></script>
+		<script src='js/jquery-1.11.2.min.js'></script>
+		<script src='js/smoothScroll.js'></script>
+		<script src="js/buttonActive.js"></script>
+		<script src="js/angular.min.js"></script>
+		<script src="js/angular-route.min.js"></script>
+		<script src="js/moduleRecherche.js"></script>
 
 	</head>
 
@@ -151,14 +154,16 @@
 	    
 	    <div class="ligne_realisations"></div>
         <div class="triangle_realisations"></div>
-	    <section id="realisations">
-	        <article>
+	    <section id="realisations" ng-app="monAppRecherche">
+	        <article ng-controller="RechercheController">
 	            <h1>Réalisations</h1>
-	            <hr/>
+	            <hr id="hr_realisation"/>
 	            <p>Voiçi quelques exemples de mes réalisations. N'hésitez pas à cliquer pour en savoir plus et à utiliser les options de tri!</p>
 	            
 	            <div id="trier_par">
-	               <p> Trier par : </p><button class="buttonActive" id="tous">Tous</button><button id="dev">Developpement Web</button><button id="Illustration">Illustration / BD</button><button id="musique">Musique</button>
+	               <p> Trier par : </p><button class="buttonActive" id="tous">Tous</button><button id="dev">Developpement Web</button><button id="Illustration">Illustration / BD</button><button id="musique">Musique</button> <form action="" id="recherche"><input type="text" ng-model="recherche"/><input type="submit" value="Rechercher"></form> <hr id="hr_recherche"/>
+	            </div>
+	            <div id="preview_realisation" ng-view>
 	            </div>
 	            
 	        </article>
@@ -171,7 +176,7 @@
 	            <h1>Contact</h1>
 	            <hr/>
 	            <p>N’hésitez pas à me contacter via le formulaire ci dessous pour toutes questions, demandes de projet ou commande.</p>
-	            <form action="">
+	            <form action="" id="contact">
                    <div id="ligne_1">
                         <label for="prenom">Votre prenom :<br/> <input type="text"/></label>
                         <label for="nom">Votre nom :<br/> <input type="text"/></label>

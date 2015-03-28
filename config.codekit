@@ -47,6 +47,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/default.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/default.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/details.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/details.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/imgs\/ab.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -62,7 +80,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 42356,
+		"initialSize": 24682,
 		"inputAbbreviatedPath": "\/imgs\/angularjs.png",
 		"outputAbbreviatedPath": "\/imgs\/angularjs.png",
 		"outputPathIsOutsideProject": 0,
@@ -84,7 +102,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 28051,
+		"initialSize": 20866,
 		"inputAbbreviatedPath": "\/imgs\/bootstrap.png",
 		"outputAbbreviatedPath": "\/imgs\/bootstrap.png",
 		"outputPathIsOutsideProject": 0,
@@ -128,9 +146,20 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
+		"initialSize": 35940,
 		"inputAbbreviatedPath": "\/imgs\/compass.png",
 		"outputAbbreviatedPath": "\/imgs\/compass.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/contact.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29709,
+		"inputAbbreviatedPath": "\/imgs\/contact.png",
+		"outputAbbreviatedPath": "\/imgs\/contact.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -271,7 +300,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 27637,
+		"initialSize": 20738,
 		"inputAbbreviatedPath": "\/imgs\/jQuery.png",
 		"outputAbbreviatedPath": "\/imgs\/jQuery.png",
 		"outputPathIsOutsideProject": 0,
@@ -282,7 +311,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 23801,
+		"initialSize": 25204,
 		"inputAbbreviatedPath": "\/imgs\/js.png",
 		"outputAbbreviatedPath": "\/imgs\/js.png",
 		"outputPathIsOutsideProject": 0,
@@ -366,6 +395,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/imgs\/realisations.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31790,
+		"inputAbbreviatedPath": "\/imgs\/realisations.png",
+		"outputAbbreviatedPath": "\/imgs\/realisations.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/realisations\/arteos.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/imgs\/realisations\/arteos.jpg",
+		"outputAbbreviatedPath": "\/imgs\/realisations\/arteos.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/imgs\/sass.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -381,7 +432,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 49521,
+		"initialSize": 49145,
 		"inputAbbreviatedPath": "\/imgs\/seo.png",
 		"outputAbbreviatedPath": "\/imgs\/seo.png",
 		"outputPathIsOutsideProject": 0,
@@ -474,6 +525,83 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/js\/angular-route.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/angular-route.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/angular-route.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/angular.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/angular.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/angular.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/buttonActive.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/buttonActive.js",
+		"outputAbbreviatedPath": "\/js\/min\/buttonActive-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/jquery-1.11.2.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/jquery-1.11.2.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/jquery-1.11.2.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/moduleRecherche-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/moduleRecherche-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/moduleRecherche-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/moduleRecherche.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/moduleRecherche.js",
+		"outputAbbreviatedPath": "\/js\/min\/moduleRecherche-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/smoothScroll.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/smoothScroll.js",
+		"outputAbbreviatedPath": "\/js\/min\/smoothScroll-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/sass\/ie.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -541,14 +669,14 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Baron Axel",
+"lastSavedByUser": "Lola Grasset",
 "manualImportLinks": {
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "untitled folder 2",
+	"displayValue": "portfolio",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "compass_brown"
+	"iconImageName": "meme-fry"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
@@ -1153,7 +1281,7 @@
 	"markdownEnableFootnotes": 0,
 	"markdownEnableSmartyPants": 1,
 	"markdownExpandTabs": 1,
-	"reloadFileURLs": 1,
+	"reloadFileURLs": 0,
 	"sassAutoOutputPathEnabled": 1,
 	"sassAutoOutputPathFilenamePattern": "*.css",
 	"sassAutoOutputPathRelativePath": "..\/css",
@@ -1163,7 +1291,7 @@
 	"sassCreateSourceMap": 0,
 	"sassDebugStyle": 0,
 	"sassDecimalPrecision": 10,
-	"sassOutputStyle": 3,
+	"sassOutputStyle": 0,
 	"sassUseLibsass": 0,
 	"shouldRunAutoprefixer": 0,
 	"shouldRunBless": 0,

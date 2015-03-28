@@ -1,0 +1,4 @@
+<div class="realisation" ng-repeat="realisations in mesRealisations | limitTo:nbLimit | filter:recherche">
+    <a href="#/details/{{realisations.nom}}"><img src="{{realisations.image}}" alt="realisation"></a>
+</div>
+<a href=""><button ng-Click="nbLimit = nbLimit+6" >Afficher plus</button></a>
