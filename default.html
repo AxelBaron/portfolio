@@ -1,4 +1,5 @@
-<div class="realisation" ng-repeat="realisations in mesRealisations | limitTo:nbLimit | filter:recherche">
+<div class="realisation" ng-if="$index<compteur" ng-repeat="realisations in mesRealisations track by $index | filter:recherche && categorie">
     <a href="#/details/{{realisations.nom}}"><img src="{{realisations.image}}" alt="realisation"></a>
 </div>
-<a href=""><button ng-Click="nbLimit = nbLimit+6" >Afficher plus</button></a>
+
+<button ng-show="nbmesRealisations()>compteur" ng-Click="compteur = compteur+6" >Afficher plus</button></a>
