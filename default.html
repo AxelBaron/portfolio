@@ -1,4 +1,4 @@
-<div class="realisation" ng-if="$index<compteur" ng-repeat="realisations in mesRealisations track by $index | filter:recherche && categorie">
+<div class="realisation" ng-if="$index<compteur" ng-repeat="realisations in mesRealisations track by $index | filter:recherche">
     <a href="#/details/{{realisations.nom}}"><img src="{{realisations.image}}" alt="realisation"></a>
 </div>
 
