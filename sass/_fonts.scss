@@ -1,2 +1,41 @@
 //@include font-face("Roboto Regular", font-files("Roboto-Regular.woff", "Roboto-Regular.ttf", "Roboto-Regular.svg"), "Roboto-Regular.eot");
 //@include font-face("Roboto Slab Bold", font-files("RobotoSlab-Bold.woff", "RobotoSlab-Bold.ttf", "RobotoSlab-Bold.svg"), "RobotoSlab-Bold.eot");
+@font-face{
+    font-family: "AvenirNext";
+    src: url(../fonts/avenirnext.ttc);
+}
+
+@font-face{
+    font-family: "Silom";
+    src: url(../fonts/silom.ttf);
+}
+
+@font-face{
+    font-family: "Hand Black";
+    src: url(../fonts/the-hand-black-9nov.otf);
+}
+
+@font-face{
+    font-family: "Hand Bold";
+    src: url(../fonts/the-hand-bold-9nov.otf);
+}
+
+@font-face{
+    font-family: "Hand Dotted";
+    src: url(../fonts/the-hand-dotted-9nov.otf);
+}
+
+@font-face{
+    font-family: "Hand Extra Black";
+    src: url(../fonts/the-hand-extrablack-9nov.otf);
+}
+
+@font-face{
+    font-family: "Hand Light";
+    src: url(../fonts/the-hand-light-9nov.otf);
+}
+
+@font-face{
+    font-family: "Hand Regular";
+    src: url(../fonts/the-hand-regular.otf);
+}
