@@ -13,12 +13,13 @@
 		<!-- Links -->
 		<link rel="stylesheet" href="css/style.css">
 		<script src='js/jquery-1.11.2.min.js'></script>
+		<script src='js/jquery.validate.min.js'></script>
 		<script src='js/smoothScroll.js'></script>
 		<script src="js/buttonActive.js"></script>
 		<script src="js/angular.min.js"></script>
 		<script src="js/angular-route.min.js"></script>
 		<script src="js/moduleRecherche.js"></script>
-
+        <script src='js/send_mail.js'></script>
 	</head>
 
 	<body>
@@ -176,6 +177,23 @@
 	            <h1>Contact</h1>
 	            <hr/>
 	            <p>N’hésitez pas à me contacter via le formulaire ci dessous pour toutes questions, demandes de projet ou commande.</p>
+	            <form method="post" id="commentForm" method="get" action="">
+				<fieldset>
+					<legend><h2>Nous contacter :</h2></legend>
+						<div id="nomprenomnom">
+							<input name="nomprenom" id="nomprenom" type="text" placeholder="Votre nom et prénom..." required minlength="2">
+						</div>
+						<div id="mailmail">
+							<input name="mail" id="mail" type="email" placeholder="Votre adresse Email..." required>
+						</div>
+						<div class="clear"></div>
+						<input class="objet" type="text" name="sujet" id="sujet" placeholder="Sujet de votre message" required="required">
+						<textarea name="messagecontact" id="messagecontact" placeholder="Votre message..." required="required"></textarea>
+						<!-- <div onClick="divlapin()" style="margin-left:10px; width:90%; height:30px; line-height:30px; text-align:center; background-color:#ff7000; color:black; margin-top:20px; cursor:pointer;">Envoyer</div> -->
+						<input class="submit" type="submit" value="Submit">
+				</fieldset>
+			</form>
+<!--
 	            <form action="" id="contact">
                    <div id="ligne_1">
                         <label for="prenom">Votre prenom :<br/> <input type="text"/></label>
@@ -188,6 +206,7 @@
 	                <textarea name="" placeholfer="Votre message"></textarea>
 	                <input type="submit" value="ENVOYER !"/>
 	            </form>
+-->
 	        </article>
 	    </section>
 	</body>
