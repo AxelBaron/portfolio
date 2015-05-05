@@ -20,7 +20,7 @@ $.validator.setDefaults({
 			            //ce qu'on applle en php va pop dans le html, dans la div avec le id"mydiv"
 			        }
 			    }
-			    xmlhttp.open("POST", "traitementformcontact.php", true);
+			    xmlhttp.open("POST", "phpfunctions/send_mail.php", true);
 			    // si on passe en post, on ajoute ca. Et on met les valeurs dans le send()
 			    xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 			    xmlhttp.send("nomprenom=" + nomprenom + "&mail=" + mail + "&sujet=" + sujet + "&messagecontact=" + messagecontact);
