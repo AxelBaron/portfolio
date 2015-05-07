@@ -207,7 +207,7 @@ body{
         background: fixed;
     }
    
-    #nom{
+    #monnom{
         font-size: 50px;
         font-family: "Avenir Next";
         color: white;
@@ -678,6 +678,7 @@ body{
         bottom: 30;
         background-color: $contact;
         overflow: auto;
+        color: white;
         
         article:nth-child(1){
             width: 960px;
@@ -705,92 +706,98 @@ body{
                 margin: 20px 0px 60px 0px;
                 line-height: 30px;
                 font-size: 16px;
-            }   
-        }
-    }
-    
-    #contact{
-        color: white;
-        
-        #ligne_1{
-            width: 100%;
-            margin-bottom: 20px;
-            
-            label{
-                display: block;
-                float: left;
             }
             
-            label[for=prenom]{
-                width: 300px;
-                margin-right: 20px;
+            form{
                 
-                input{
-                    width: 100%;
-                    margin-top: 5px;
-                }
-            }
+                fieldset{
+                    #ligne_1{
+                        width: 100%;
+                        margin-bottom: 10px;
 
-            label[for=nom]{
-                width: 300px;
-                margin-right: 20px;
-                input{
-                    width: 100%;
-                    margin-top: 5px;
-                }
-            }
+                        label{
+                            display: block;
+                            float: left;
+                            input{
+                                margin-bottom: 10px;
+                            }
+                        }
 
-            label[for=email]{
-                width: 320px;
-                input{
-                    width: 100%;
-                    margin-top: 5px;
+                        label[for=prenom]{
+                            width: 300px;
+                            margin-right: 20px;
+
+                            input{
+                                width: 100%;
+                                margin-top: 5px;
+                            }
+                        }
+
+                        label[for=nom]{
+                            width: 300px;
+                            margin-right: 20px;
+                            input{
+                                width: 100%;
+                                margin-top: 5px;
+                            }
+                        }
+
+                        label[for=mail]{
+                            width: 320px;
+                            input{
+                                width: 100%;
+                                margin-top: 5px;
+                            }
+                        }
+
+                        &:after{
+                            content: "";
+                            display: block;
+                            clear: both;
+                        }
+                    }
+        
+                    input{
+                        padding: 5px;
+                        margin-top: 5px;
+                    }
+
+                    label[for=sujet]{
+                        input{
+                            width: 100%;
+                        }
+                    }
+                    textarea{
+                        margin-top: 20px;
+                        padding: 5px;
+                        max-width: 100%;
+                        min-width: 100%;
+                        min-height: 300px;
+                    }
+
+                    input[type="submit"]{
+                        width: 100%;
+                        border: none;
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                        color:black;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        background-color: $orange;
+                    }
+
+                    &::hover{
+                        cursor: pointer;
+                    }
+        
                 }
+                    
             }
+        }
             
-            &:after{
-                content: "";
-                display: block;
-                clear: both;
-            }
-        }
-        
-        input{
-            padding: 5px;
-            margin-top: 5px;
-        }
-        
-        label[for=objet]{
-            input{
-                width: 100%;
-            }
-        }
-        textarea{
-            margin-top: 20px;
-            padding: 5px;
-            max-width: 100%;
-            min-width: 100%;
-            min-height: 300px;
-        }
-        
-        input[type="submit"]{
-            width: 100%;
-            border: none;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            color:black;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            background-color: $orange;
-        }
-        
-        &::hover{
-            cursor: pointer;
-        }
-        
     }
 }
-
+    
 
 @include keyframes(orange) {
     0%{

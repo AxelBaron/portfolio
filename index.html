@@ -57,7 +57,7 @@
 	    
 	    
 	   <img id="illustration" src="imgs/axelbaron.png" alt="">
-	   <p id="nom">&lt; Axel Baron / &gt;</p>
+	   <p id="monnom">&lt; Axel Baron / &gt;</p>
 	   <p id="intitule_pricipale">Developpeur web front / back</p>
 	   <p id="intitule_secondaire">Illustrateur / Bassiste</p>
 	    
@@ -179,34 +179,17 @@
 	            <p>N’hésitez pas à me contacter via le formulaire ci dessous pour toutes questions, demandes de projet ou commande.</p>
 	            <form method="post" id="commentForm" method="get" action="">
 				<fieldset>
-					<legend><h2>Nous contacter :</h2></legend>
-						<div id="nomprenomnom">
-							<input name="nomprenom" id="nomprenom" type="text" placeholder="Votre nom et prénom..." required minlength="2">
-						</div>
-						<div id="mailmail">
-							<input name="mail" id="mail" type="email" placeholder="Votre adresse Email..." required>
-						</div>
-						<div class="clear"></div>
-						<input class="objet" type="text" name="sujet" id="sujet" placeholder="Sujet de votre message" required="required">
-						<textarea name="messagecontact" id="messagecontact" placeholder="Votre message..." required="required"></textarea>
-						<!-- <div onClick="divlapin()" style="margin-left:10px; width:90%; height:30px; line-height:30px; text-align:center; background-color:#ff7000; color:black; margin-top:20px; cursor:pointer;">Envoyer</div> -->
-						<input class="submit" type="submit" value="Submit">
+                    <div id="ligne_1">
+                        <label for="prenom"> Prénom :<input name="prenom" id="prenom" type="text" placeholder="Votre nom et prénom..." required minlength="2"></label>
+                        <label for="nom">Nom :<input name="nom" id="nom" type="text" placeholder="Votre nom et prénom..." required minlength="2"></label>
+                        <label for="mail">Mail :<input name="mail" id="mail" type="email" placeholder="Votre adresse Email..." required></label>
+				    </div>
+				    <div class="clear"></div>
+				    <label for="sujet">Sujet :<input class="objet" type="text" name="sujet" id="sujet" placeholder="Sujet de votre message" required="required"></label>
+				    <textarea name="messagecontact" id="messagecontact" placeholder="Votre message..." required="required"></textarea>
+				    <input class="submit" type="submit" value="Envoyer !">
 				</fieldset>
 			</form>
-<!--
-	            <form action="" id="contact">
-                   <div id="ligne_1">
-                        <label for="prenom">Votre prenom :<br/> <input type="text"/></label>
-                        <label for="nom">Votre nom :<br/> <input type="text"/></label>
-                        <label for="email">Votre e-mail :<br/> <input type="text"/></label>
-                    </div>
-                  
-                    
-                    <label for="objet">Objet :<br/> <input type="text"/></label>
-	                <textarea name="" placeholfer="Votre message"></textarea>
-	                <input type="submit" value="ENVOYER !"/>
-	            </form>
--->
 	        </article>
 	    </section>
 	</body>

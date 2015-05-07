@@ -1,7 +1,8 @@
 $.validator.setDefaults({
 			submitHandler: function() {
 				var xmlhttp;
-			    var nomprenom = encodeURIComponent(document.getElementById("nomprenom").value);
+			    var prenom = encodeURIComponent(document.getElementById("prenom").value);
+                var nom = encodeURIComponent(document.getElementById("nom").value);
 			    var mail = encodeURIComponent(document.getElementById("mail").value);
 			    var sujet = encodeURIComponent(document.getElementById("sujet").value);
 			    var messagecontact = encodeURIComponent(document.getElementById("messagecontact").value);
@@ -23,11 +24,12 @@ $.validator.setDefaults({
 			    xmlhttp.open("POST", "phpfunctions/send_mail.php", true);
 			    // si on passe en post, on ajoute ca. Et on met les valeurs dans le send()
 			    xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-			    xmlhttp.send("nomprenom=" + nomprenom + "&mail=" + mail + "&sujet=" + sujet + "&messagecontact=" + messagecontact);
+			    xmlhttp.send("prenom=" + prenom + "&nom=" + nom+ "&mail=" + mail + "&sujet=" + sujet + "&messagecontact=" + messagecontact);
 
-			    alert('Votre mail a bien été envoyé!');
+			    alert('Merci, votre e-mail a bien été envoyé!');
 
-			    document.getElementById("nomprenom").value = '';
+			    document.getElementById("prenom").value = '';
+                document.getElementById("nom").value = '';
 			    document.getElementById("mail").value = '';
 			    document.getElementById("sujet").value = '';
 			    document.getElementById("messagecontact").value = '';
