@@ -12,8 +12,8 @@
 	filter_var($mail,FILTER_SANITIZE_EMAIL);
 	filter_var($messagecontact,FILTER_SANITIZE_STRING);
 
-	$newsujet = "Site Arteos : ".$sujet;
-	$newmessagecontact = $messagecontact."\n \nCe message vous a été envoyé via le formulaire de contact du site arteos.fr.";
+	$newsujet = "Site axelbaron.fr : ".$sujet;
+	$newmessagecontact = $messagecontact."\n \nCe message vous a été envoyé via le formulaire de contact du site axelbaron.fr";
 
 	$entete = 'From: '.$mail."\r\n".
 	'Reply-To: '.$mail."\r\n".
