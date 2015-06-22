@@ -20,6 +20,7 @@
 		<script src="js/angular-route.min.js"></script>
 		<script src="js/moduleRecherche.js"></script>
         <script src='js/send_mail.js'></script>
+        <script src="js/close_fenetre.js"></script>
 	</head>
 
 	<body>
@@ -177,20 +178,24 @@
 	            <h1>Contact</h1>
 	            <hr/>
 	            <p>N’hésitez pas à me contacter via le formulaire ci dessous pour toutes questions, demandes de projet ou commande.</p>
+	            <div id="mask"></div>
+                <div id="fenetre_mail"><p>Votre e-mail a bien été envoyé !</br>
+	            Une réponse vous sera retournée dans les plus brefs délais.<br/><button onclick="close_fenetre()">Ok</button></p></div>
 	            <form method="post" id="commentForm" method="get" action="">
-				<fieldset>
-                    <div id="ligne_1">
-                        <label for="prenom"> Prénom :<input name="prenom" id="prenom" type="text" placeholder="Votre nom et prénom..." required minlength="2"></label>
-                        <label for="nom">Nom :<input name="nom" id="nom" type="text" placeholder="Votre nom et prénom..." required minlength="2"></label>
-                        <label for="mail">Mail :<input name="mail" id="mail" type="email" placeholder="Votre adresse Email..." required></label>
-				    </div>
-				    <div class="clear"></div>
-				    <label for="sujet">Sujet :<input class="objet" type="text" name="sujet" id="sujet" placeholder="Sujet de votre message" required="required"></label>
-				    <textarea name="messagecontact" id="messagecontact" placeholder="Votre message..." required="required"></textarea>
-				    <input class="submit" type="submit" value="Envoyer !">
-				</fieldset>
-			</form>
+                    <fieldset>
+                        <div id="ligne_1">
+                            <label for="prenom"> Prénom :<input name="prenom" id="prenom" type="text" placeholder="Votre nom et prénom..." required minlength="2"></label>
+                            <label for="nom">Nom :<input name="nom" id="nom" type="text" placeholder="Votre nom et prénom..." required minlength="2"></label>
+                            <label for="mail">Mail :<input name="mail" id="mail" type="email" placeholder="Votre adresse Email..." required></label>
+                        </div>
+                        <div class="clear"></div>
+                        <label for="sujet">Sujet :<input class="objet" type="text" name="sujet" id="sujet" placeholder="Sujet de votre message" required="required"></label>
+                        <textarea name="messagecontact" id="messagecontact" placeholder="Votre message..." required="required"></textarea>
+                        <input class="submit" type="submit" value="Envoyer !">
+                    </fieldset>
+			    </form>
 	        </article>
 	    </section>
+	    <footer>© Images, illustrations et code par Axel Baron.</footer>
 	</body>
 </html>

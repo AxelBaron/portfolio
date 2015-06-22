@@ -614,7 +614,7 @@ body{
                     width: 300px;
                     height: 200px;
                     margin-right: 30px;
-                    background-color: violet;
+                    background-color: black;
                     margin-top: 30px;
                     
                     a{
@@ -708,6 +708,46 @@ body{
                 font-size: 16px;
             }
             
+            #mask{
+                display: none;
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-color: rgba(0, 0, 0, 0.3);
+                z-index: 1000; 
+            }
+            
+            #fenetre_mail{
+                position: absolute;
+                background: $bleuClair;
+                position: fixed;
+                width: 40%;
+                box-shadow: 0px 0px 20px #000;
+                z-index: 999999;
+                top: 43%;
+                left: 31%;
+                display: none;
+                
+                p{
+                    margin: 20px 0;
+                    
+                    button{
+                        width: 90%;
+                        background-color: $orange;
+                        border: none;
+                        padding: 10px;
+                        margin-top: 20px;
+                        cursor: pointer;
+                            &:hover{
+                                background-color: $orangeHover;
+                            }
+                    }
+                }
+            }
+            
+            
             form{
                 
                 fieldset{
@@ -795,6 +835,15 @@ body{
             }
         }
             
+    }
+    
+    footer{
+        color: white;
+        text-align: center;
+        background-color: $contact;
+        padding: 15px 0;
+        font-family: "Avenir Next";
+        font-size: 13px;
     }
 }
     

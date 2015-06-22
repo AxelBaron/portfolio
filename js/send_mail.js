@@ -25,9 +25,12 @@ $.validator.setDefaults({
 			    // si on passe en post, on ajoute ca. Et on met les valeurs dans le send()
 			    xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 			    xmlhttp.send("prenom=" + prenom + "&nom=" + nom+ "&mail=" + mail + "&sujet=" + sujet + "&messagecontact=" + messagecontact);
-
-			    alert('Merci, votre e-mail a bien été envoyé!');
-
+                
+                //Fenêtre modale
+                document.getElementById("mask").style.display='block';
+                document.getElementById("fenetre_mail").style.display='block';
+                
+                //Vide le formulaire
 			    document.getElementById("prenom").value = '';
                 document.getElementById("nom").value = '';
 			    document.getElementById("mail").value = '';
