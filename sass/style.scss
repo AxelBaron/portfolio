@@ -17,6 +17,13 @@ $contact: #283946;
 html{
     width: 100%;
     height: 100%;
+    overflow:none;
+}
+
+//Animations
+article, #monnom, #intitule_pricipale, #intitule_secondaire, .triangle{
+    @include animation('article 1s linear 3s 1 normal forwards');
+    opacity: 0;
 }
 
 body{
