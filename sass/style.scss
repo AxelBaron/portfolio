@@ -390,6 +390,25 @@ body{
                 font-size: 16px;
             }
             
+            a{
+                text-decoration: none;
+                
+                .annonce{
+                    font-size: 16px;
+                    text-align: center;
+                    line-height: 20px;
+                    color: black;
+                    background: $orange;
+                    padding: 10px 10px 10px 10px;
+                    margin-top:20px; 
+                    margin: auto;
+                    width: 500px;
+                    margin-bottom: 100px;
+                    cursor: pointer
+                }
+            }
+            
+            
             #formation{
                 width: 600px;
                 margin: auto;
