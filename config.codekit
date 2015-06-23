@@ -87,13 +87,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/imgs\/axelbaron2.png": {
+	"\/imgs\/axelbaron.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 968436,
-		"inputAbbreviatedPath": "\/imgs\/axelbaron2.png",
-		"outputAbbreviatedPath": "\/imgs\/axelbaron2.png",
+		"initialSize": 1.37518e+06,
+		"inputAbbreviatedPath": "\/imgs\/axelbaron.png",
+		"outputAbbreviatedPath": "\/imgs\/axelbaron.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -186,6 +186,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/imgs\/cv-axel-baron.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.80738e+06,
+		"inputAbbreviatedPath": "\/imgs\/cv-axel-baron.jpg",
+		"outputAbbreviatedPath": "\/imgs\/cv-axel-baron.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/imgs\/cv.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -204,6 +215,17 @@
 		"initialSize": 27709,
 		"inputAbbreviatedPath": "\/imgs\/facebook.png",
 		"outputAbbreviatedPath": "\/imgs\/facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/favicon-16x16.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/imgs\/favicon-16x16.png",
+		"outputAbbreviatedPath": "\/imgs\/favicon-16x16.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
