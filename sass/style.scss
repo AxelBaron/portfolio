@@ -62,6 +62,8 @@ body{
             #nav_gauche{
                 width: 40%;
                 float: left;
+                position: relative;
+                z-index: 99;
                 ul{
                     margin-top: 20px;
                     li {
