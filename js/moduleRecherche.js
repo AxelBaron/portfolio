@@ -5,7 +5,7 @@ app.config(['$routeProvider', function ($routeProvider) {
         .when('/', {
             templateUrl: 'default.html'
         })
-        .when('/details/:nom', {
+        .when('/details/:id', {
             templateUrl: 'details.html'
         })
         .otherwise({
@@ -33,15 +33,8 @@ app.controller('RechercheController', ['$scope', 'RechercheFactory', function ($
 
 }]);
 
-app.controller('ViewRechercheController', ['$scope', '$routeParams','RechercheFactory', function ($scope, $routeParams,RechercheFactory) {
-    
-     $scope.mesRealisations=RechercheFactory.getmesRealisations()
-        .then( 
-            function (data) { $scope.mesRealisations = data;$scope.realisations = $scope.mesRealisations[$routeParams.nom];},
-            function (msg) {
-                alert(msg); 
-            }
-        );
+app.controller('ViewRechercheController', ['$scope', '$routeParams', function ($scope, $routeParams) {
+    $scope.realisation = $scope.mesRealisations[$routeParams.id];
 }]);
 
 // PROMESSE EN CONSTRUCTION.

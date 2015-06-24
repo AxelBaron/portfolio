@@ -1,5 +1,5 @@
 <div class="realisation" ng-if="$index<compteur" ng-repeat="realisations in mesRealisations track by $index | filter:recherche">
-    <a href="#/details/{{realisations.nom}}"><img src="{{realisations.image}}" alt="realisation"></a>
+    <a href="#/details/{{realisations.id}}"><img src="{{realisations.image}}" alt="realisation"></a>
 </div>
 
 <button ng-show="nbmesRealisations()>compteur" ng-Click="compteur = compteur+6" >Afficher plus</button></a>

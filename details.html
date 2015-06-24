@@ -4,9 +4,10 @@
     c.style.zIndex="-1";
 </script>
 <div id='mask_rea'></div>
-<div id='fenetre_rea'>
-   <a href="#realisations"><p id='fermer'><button onclick="close_fmod_rea()">Fermer</button></p></a>
-    <p>
-        test
-    </p>
+<div id='fenetre_rea' ng-controller='ViewRechercheController'>
+   <p id='fermer'><a href="#realisations"><button onclick="close_fmod_rea()">Fermer</button></a></p>
+    <h1>
+        {{realisation.nom}}
+    </h1>
+    <p>{{realisation.text}}</p>
 </div>
