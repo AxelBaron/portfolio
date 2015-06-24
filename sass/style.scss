@@ -647,6 +647,54 @@ body{
             #preview_realisation{
                 width: 100%;
                 
+                #mask_rea{
+                    display: block;
+                    position: fixed;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    background-color: rgba(0, 0, 0, 0.3);
+                    z-index: 1000; 
+                }
+                
+                #fenetre_rea{
+                    background: #70818d;
+                    position: fixed;
+                    width: 90%;
+                    box-shadow: 0px 0px 20px #000;
+                    z-index: 999999;
+                    top: 15%;
+                    height: 80%;
+                    left: 5%;
+                    display: block;
+                    
+                    #fermer{
+                        text-align: right;
+                        button{
+                            width: 10%;
+                            margin-right: 20px;
+                            margin-top: 0px;
+                        }
+                    }
+                    
+                    p{
+                        margin: 20px 0;
+
+                        button{
+                            width: 90%;
+                            background-color: $orange;
+                            border: none;
+                            padding: 10px;
+                            margin-top: 20px;
+                            cursor: pointer;
+                                &:hover{
+                                    background-color: $orangeHover;
+                                }
+                        }
+                    }
+                }
+                
                 .realisation{
                     float: left;
                     width: 300px;
@@ -661,7 +709,7 @@ body{
                             height: 100%; 
                         }
                     }
-                }
+             }
                 
                 .realisation:nth-child(3n){
                     margin-right: 0px;
