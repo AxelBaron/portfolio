@@ -38,15 +38,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/style.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/default.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -190,7 +181,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.80738e+06,
+		"initialSize": 608985,
 		"inputAbbreviatedPath": "\/imgs\/cv-axel-baron.jpg",
 		"outputAbbreviatedPath": "\/imgs\/cv-axel-baron.jpg",
 		"outputPathIsOutsideProject": 0,
