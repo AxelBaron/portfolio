@@ -38,6 +38,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/style.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/default.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -419,13 +428,46 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/imgs\/realisations\/arteos.jpg": {
+	"\/imgs\/realisations\/arteos\/1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/imgs\/realisations\/arteos.jpg",
-		"outputAbbreviatedPath": "\/imgs\/realisations\/arteos.jpg",
+		"initialSize": 253097,
+		"inputAbbreviatedPath": "\/imgs\/realisations\/arteos\/1.jpg",
+		"outputAbbreviatedPath": "\/imgs\/realisations\/arteos\/1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/realisations\/arteos\/2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 253097,
+		"inputAbbreviatedPath": "\/imgs\/realisations\/arteos\/2.jpg",
+		"outputAbbreviatedPath": "\/imgs\/realisations\/arteos\/2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/realisations\/arteos\/3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.85238e+06,
+		"inputAbbreviatedPath": "\/imgs\/realisations\/arteos\/3.jpg",
+		"outputAbbreviatedPath": "\/imgs\/realisations\/arteos\/3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/realisations\/arteos\/couv.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.66802e+06,
+		"inputAbbreviatedPath": "\/imgs\/realisations\/arteos\/couv.jpg",
+		"outputAbbreviatedPath": "\/imgs\/realisations\/arteos\/couv.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -599,6 +641,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/jquery.validate.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/jquery.validate.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/buttonActive-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/buttonActive-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/buttonActive-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

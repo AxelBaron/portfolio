@@ -2,8 +2,35 @@
     {
         "id": 0,
         "nom": "Arteos.fr",
-        "image": "imgs/realisations/arteos.jpg",
-        "text": "En cours de construction",
+        "site":"http://arteos.fr/",
+        "date": "2015",
+        "role": "Développeur Back",
+        "colaborateurs": [
+            {
+                "id" : "Lolita Grasset",
+                "site" : "http://lolitagrasset.com/"
+            },
+            {
+                "id":"Damien Becret",
+                "site" : "https://www.linkedin.com/pub/damien-b%C3%A9cret/26/7b/b83"
+            }
+        ],
+        "couv" : "imgs/realisations/arteos/couv.jpg",
+        "images": [
+            {
+                "alt":"",
+                "lien" : "imgs/realisations/arteos/1.jpg"
+            },
+            {
+                "alt":"",
+                "lien" : "imgs/realisations/arteos/2.jpg"
+            },
+            {
+                "alt":"",
+                "lien" : "imgs/realisations/arteos/3.jpg"
+            }
+        ],
+        "text": " Damien Becret, Lolita Grasset et moi avons proposé au collectif de photographes ArtEos un site professionnel. Celui-ci s'inscrit dans le cadre de notre 'stage cours' du DUT MMI de Troyes.Le site est doté d’un front office personnel et d’un CMS « fait maison »  pour satisfaire les attentes de notre client. Le back office propose un syeteme de tri, de gestion et d'archivage des photographies. Très satisfait, M. Laurent Grigord notre commanditaire  continue de travailler avec nous pour peaufiner et entretenir le site.",
         "link": "details.html",
         "categorie":"dev"
     },
@@ -11,6 +38,7 @@
     {
         "id": 1,
         "nom": "Shop Gun",
+        "date": 2015,
         "image": "imgs/realisations/arteos.jpg",
         "text": "En cours de construction",
         "link": "details.html",
@@ -20,6 +48,7 @@
     {
         "id": 2,
         "nom": "Ze Truc",
+        "date": "2015",
         "image": "imgs/realisations/arteos.jpg",
         "text": "En cours de construction",
         "link": "details.html",

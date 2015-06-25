@@ -9,5 +9,19 @@
     <h1>
         {{realisation.nom}}
     </h1>
-    <p>{{realisation.text}}</p>
+    <p id="role_rea">Mon rôle : {{realisation.role}}</p>
+    <p id="collaborateurs_rea">
+      Collaborateurs :
+       <span ng-repeat="colaborateur in realisation.colaborateurs ">
+           <a href="{{colaborateur.site}}">{{colaborateur.id}}</a>
+       </span>
+    </p>
+    <p id="date_rea">{{realisation.date}}</p>
+    <p id='text_rea'>{{realisation.text}}</p>
+    <p id='acces_rea'><a href="{{realisation.site}}" target="_blank">Accédez au site</a></p>
+    <div id="images_rea">
+        <div class="realisation" ng-repeat="image in realisation.images">
+        <a target="_blank" href="{{image.lien}}"><img src="{{image.lien}}" alt="{{alt}}"></a>
+    </div>
+    </div>
 </div>
