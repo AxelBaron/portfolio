@@ -1,5 +1,5 @@
 <div>
-	<div ng-repeat="realisation in mesRealisations | filter:cherche | limitTo:compteur | orderBy:critere" class="realisation">		
+	<div ng-repeat="realisation in filterRealisations | filter:myFilter | limitTo:compteur | orderBy:date" class="realisation">		
         <a href="#/details/{{realisation.id}}"><img src="{{realisation.couv}}" alt=""></a>
     </div>
 </div>	
