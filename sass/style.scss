@@ -617,6 +617,8 @@ body{
                 #recherche{
                     display: inline-flex;
                     float: right;
+                    position: relative;
+                    right: -30px;
                     
                     input[type='text']{
                         width: 200px;
@@ -793,20 +795,20 @@ body{
                             height: 100%;
                             filter: grayscale(100%);
                             -webkit-filter: grayscale(100%);
-                            -webkit-transition: 0,5s ease-in-out;
+                            -webkit-transition: 0.5s ease-in-out;
                             -moz-filter: grayscale(100%); 
-                            -moz-transition: 0,5s ease-in-out;
+                            -moz-transition: 0.5s ease-in-out;
                             -o-filter: grayscale(100%); 
-                            -o-transition: 0,5s ease-in-out;
+                            -o-transition: 0.5s ease-in-out;
                             
                             &:hover{
                                 filter: grayscale(0%);
                                 -webkit-filter: grayscale(0%);
-                                -webkit-transition: 0,5s ease-in-out;
+                                -webkit-transition: 0.5s ease-in-out;
                                 -moz-filter: grayscale(0%);
-                                -moz-transition: 0,5s ease-in-out;
+                                -moz-transition: 0.5s ease-in-out;
                                 -o-filter: grayscale(0%);
-                                -o-transition: 0,5s ease-in-out;
+                                -o-transition: 0.5s ease-in-out;
                                 
                             }
                         }
