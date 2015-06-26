@@ -115,6 +115,8 @@ body{
             #nav_droite{
                 width: 40%;
                 float: right;
+                position: relative;
+                z-index: 9;
                 ul{
                    margin-top: 20px; 
                     li {
@@ -690,7 +692,7 @@ body{
                     
                     #role_rea{
                         margin: 0px;
-                        font-size: 12px;
+                        font-size: 14px;
                     }
                     
                     #collaborateurs_rea{
@@ -726,13 +728,14 @@ body{
                         max-width: 960px;
                         margin : auto;
                         
-                        .realisation{
+                        .realisation_rea{
                             float: left;
                             width: 300px;
                             height: 200px;
                             margin-right: 30px;
                             background-color: black;
                             margin-top: 30px;
+                            cursor: pointer;
 
                             a{
                                 img{
@@ -742,7 +745,7 @@ body{
                             }
                         }
                             
-                        .realisation:nth-child(3n){
+                        .realisation_rea:nth-child(3n){
                             margin-right: 0px;
                             float: left;
                         }
@@ -776,14 +779,38 @@ body{
                     float: left;
                     width: 300px;
                     height: 200px;
-                    margin-right: 30px;
+                    margin-right: 20px;
                     background-color: black;
                     margin-top: 30px;
+                    //cursor: pointer;
                     
                     a{
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        
                         img{
                             width: 100%;
-                            height: 100%; 
+                            height: 100%;
+                            //cursor: pointer;
+                            filter: grayscale(100%);
+                            -webkit-filter: grayscale(100%);
+                            -webkit-transition: 1s ease-in-out;
+                            -moz-filter: grayscale(100%); 
+                            -moz-transition: 1s ease-in-out;
+                            -o-filter: grayscale(100%); 
+                            -o-transition: 1s ease-in-out;
+                            
+                            &:hover{
+                                filter: grayscale(0%);
+                                -webkit-filter: grayscale(0%);
+                                -webkit-transition: 1s ease-in-out;
+                                -moz-filter: grayscale(0%);
+                                -moz-transition: 1s ease-in-out;
+                                -o-filter: grayscale(0%);
+                                -o-transition: 1s ease-in-out;
+                                //cursor: pointer;
+                            }
                         }
                     }
                  }

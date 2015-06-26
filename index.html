@@ -179,10 +179,9 @@
 	            <h1>Réalisations</h1>
 	            <hr id="hr_realisation"/>
 	            <p>Voiçi quelques exemples de mes réalisations. N'hésitez pas à cliquer pour en savoir plus et à utiliser les options de tri!</p>
-	            
 	            <div id="trier_par">
-	               <p> Trier par : </p><button class="button buttonActive" id="tous">Tous</button><button id="dev" class="button">Developpement Web</button><button id="Illustration" class="button">Illustration / BD</button><button id="musique" class="button">Musique</button> <form action="" id="recherche"><input type="text" ng-model="recherche"/><button type="button">Rechercher</button></form> <hr id="hr_recherche"/>
-	            </div>
+    <p> Trier par : </p><button class="button buttonActive" id="tous">Tous</button><button id="dev" class="button">Developpement Web</button><button id="Illustration" class="button">Illustration / BD</button><button id="musique" class="button">Musique</button> <div id="recherche"><input type="text" ng-trim="false" ng-model="cherche"><button type="button">Rechercher</button></div> <hr id="hr_recherche"/>
+</div>
 	            <div id="preview_realisation" ng-view>
 	            </div>
 	        </article>

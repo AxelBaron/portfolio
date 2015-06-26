@@ -472,6 +472,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/imgs\/realisations\/shopgun\/1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/imgs\/realisations\/shopgun\/1.jpg",
+		"outputAbbreviatedPath": "\/imgs\/realisations\/shopgun\/1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/realisations\/shopgun\/2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/imgs\/realisations\/shopgun\/2.jpg",
+		"outputAbbreviatedPath": "\/imgs\/realisations\/shopgun\/2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/realisations\/shopgun\/3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/imgs\/realisations\/shopgun\/3.jpg",
+		"outputAbbreviatedPath": "\/imgs\/realisations\/shopgun\/3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/realisations\/shopgun\/couv.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/imgs\/realisations\/shopgun\/couv.jpg",
+		"outputAbbreviatedPath": "\/imgs\/realisations\/shopgun\/couv.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/realisations\/zetruc\/1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 181197,
+		"inputAbbreviatedPath": "\/imgs\/realisations\/zetruc\/1.jpg",
+		"outputAbbreviatedPath": "\/imgs\/realisations\/zetruc\/1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/imgs\/realisations\/zetruc\/couv.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 236783,
+		"inputAbbreviatedPath": "\/imgs\/realisations\/zetruc\/couv.jpg",
+		"outputAbbreviatedPath": "\/imgs\/realisations\/zetruc\/couv.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/imgs\/sass.png": {
 		"fileType": 32768,
 		"ignore": 0,
