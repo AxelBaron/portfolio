@@ -102,5 +102,78 @@
         "text": "Je suis repéré par l'agence web Ze Truc pour mes illustrations. Interéssés, nous collaborons sur le projet 'Livert Eco-Guide' du foyer rémois de la ville de Reims. Ce livret à vocation d'enseigner le bonnes pratiques pour préserver la planète. J'ai illustré ce guide avec plusieur illustrations contenant deux personnages en couleur, intégrant parfois quelques éléments de décors. Aurélia Rogé s'est chargé de la communication avec le client et Florian Meirhaeghe de la mise en page.",
         "link": "details.html",
         "categorie":"illu"
+    },
+    {
+        "id": 3,
+        "nom": "Ze Truc - Eco Guide",
+        "site":"http://www.zetruc.fr/",
+        "date": "2015",
+        "role": "Illustrateur",
+        "colaborateurs": [
+            {
+                "id" : "Aurélia Rogé",
+                "site" : "http://www.zetruc.fr/lagence/"  
+            },
+            
+            {
+                "id" : "Florian Meirhaeghe",
+                "site" : "http://www.zetruc.fr/lagence/"  
+            }
+        ],
+        "couv" : "imgs/realisations/zetruc/couv.jpg",
+        "images": [
+            {
+                "alt":"image",
+                "lien" : "imgs/realisations/zetruc/1.jpg"
+            },
+            {
+                "alt":"",
+                "lien" : "imgs/realisations/zetruc/couv.jpg"
+            },
+            {
+                "alt":"",
+                "lien" : "imgs/realisations/zetruc/3.jpg"
+            }
+        ],
+        "text": "Je suis repéré par l'agence web Ze Truc pour mes illustrations. Interéssés, nous collaborons sur le projet 'Livert Eco-Guide' du foyer rémois de la ville de Reims. Ce livret à vocation d'enseigner le bonnes pratiques pour préserver la planète. J'ai illustré ce guide avec plusieur illustrations contenant deux personnages en couleur, intégrant parfois quelques éléments de décors. Aurélia Rogé s'est chargé de la communication avec le client et Florian Meirhaeghe de la mise en page.",
+        "link": "details.html",
+        "categorie":"illu"
+    },
+    {
+        "id": 4,
+        "nom": "Ze Truc - Eco Guide",
+        "site":"http://www.zetruc.fr/",
+        "date": "2015",
+        "role": "Illustrateur",
+        "colaborateurs": [
+            {
+                "id" : "Aurélia Rogé",
+                "site" : "http://www.zetruc.fr/lagence/"  
+            },
+            
+            {
+                "id" : "Florian Meirhaeghe",
+                "site" : "http://www.zetruc.fr/lagence/"  
+            }
+        ],
+        "couv" : "imgs/realisations/zetruc/couv.jpg",
+        "images": [
+            {
+                "alt":"image",
+                "lien" : "imgs/realisations/zetruc/1.jpg"
+            },
+            {
+                "alt":"",
+                "lien" : "imgs/realisations/zetruc/couv.jpg"
+            },
+            {
+                "alt":"",
+                "lien" : "imgs/realisations/zetruc/3.jpg"
+            }
+        ],
+        "text": "Je suis repéré par l'agence web Ze Truc pour mes illustrations. Interéssés, nous collaborons sur le projet 'Livert Eco-Guide' du foyer rémois de la ville de Reims. Ce livret à vocation d'enseigner le bonnes pratiques pour préserver la planète. J'ai illustré ce guide avec plusieur illustrations contenant deux personnages en couleur, intégrant parfois quelques éléments de décors. Aurélia Rogé s'est chargé de la communication avec le client et Florian Meirhaeghe de la mise en page.",
+        "link": "details.html",
+        "categorie":"illu"
     }
+    
 ]

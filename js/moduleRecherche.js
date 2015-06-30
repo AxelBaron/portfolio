@@ -16,7 +16,8 @@ app.config(['$routeProvider', function ($routeProvider) {
 app.controller('RechercheController', ['$scope', 'RechercheFactory', function ($scope, RechercheFactory) {
     
     
-    $scope.compteur = 6,
+    $scope.compteur = 3,
+    
         
     $scope.mesRealisations=RechercheFactory.getmesRealisations()
     .then( 
@@ -35,10 +36,12 @@ app.controller('RechercheController', ['$scope', 'RechercheFactory', function ($
     );
     
     $scope.all = function () {
+        $scope.compteur=3;
         $scope.filterRealisations=$scope.mesRealisations;
     };
     
     $scope.dev = function () {
+        
         $scope.filterRealisations =[];
         for (var i = 0; i < $scope.mesRealisations.length; i++) {
             if($scope.mesRealisations[i]['categorie'] == 'dev'){
@@ -48,6 +51,7 @@ app.controller('RechercheController', ['$scope', 'RechercheFactory', function ($
     };
     
     $scope.illu = function () {
+        $scope.compteur=3;
         $scope.filterRealisations =[];
         for (var i = 0; i < $scope.mesRealisations.length; i++) {
             if($scope.mesRealisations[i]['categorie'] == 'illu'){
@@ -57,6 +61,7 @@ app.controller('RechercheController', ['$scope', 'RechercheFactory', function ($
     };
     
     $scope.musique = function () {
+        $scope.compteur=3;
         $scope.filterRealisations =[];
         for (var i = 0; i < $scope.mesRealisations.length; i++) {
             if($scope.mesRealisations[i]['categorie'] == 'musique'){
@@ -67,25 +72,33 @@ app.controller('RechercheController', ['$scope', 'RechercheFactory', function ($
         
             
     $scope.nbmesRealisations = function () {
+        $scope.nbmesRealisations = $scope.mesRealisations.length;
         return ($scope.mesRealisations.length);
     };
     
-    $scope.count = function () {
-        return ($scope.mesRealisations.length);
-    };
+    
+    $scope.countPlus = function() {
+        $scope.compteur = $scope.compteur + 3;
+        if($scope.compteur > $scope.filterRealisations.length){
+            $scope.compteur = $scope.filterRealisations.length;
+        }
+    }
+    
+    $scope.countMoins = function() {
+        $scope.compteur = $scope.compteur - 3;
+        if($scope.compteur < 3){
+            $scope.compteur = 3;
+        }
+    }
     
 
 }]);
 
-function Test($scope) {
-  $scope.persons = [{type: 1, name: 'Caio'}, {type:2, name: 'Ary'}, {type:1, name: 'Camila'}];
-}
 
 app.controller('ViewRechercheController', ['$scope', '$routeParams', function ($scope, $routeParams) {
     $scope.realisation = $scope.mesRealisations[$routeParams.id];
 }]);
 
-// PROMESSE EN CONSTRUCTION.
 app.factory('RechercheFactory', ['$http', '$q', function ($http, $q) {
     var factory = {
         mesRealisations: false,
