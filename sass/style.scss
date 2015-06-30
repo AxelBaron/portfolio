@@ -218,8 +218,7 @@ body{
     
     #illustration{
         
-        max-width:600px;
-        min-width: 450px;
+        max-width: 540px;
         margin: auto;
         margin-top: 120px;
         margin-bottom: 40px;
@@ -555,7 +554,7 @@ body{
         }
         
         article{
-            width: 960px;
+            width: 940px;
             margin: auto;
             font-family: "Avenir Next";
             
@@ -784,7 +783,7 @@ body{
                     float: left;
                     width: 300px;
                     height: 200px;
-                    margin-right: 30px;
+                    margin-right: 20px;
                     background-color: black;
                     margin-top: 30px;
                     
@@ -877,7 +876,7 @@ body{
             }
         }
         article{
-            width: 960px;
+            width: 940px;
             margin: auto;
             font-family: "Avenir Next";
             
@@ -961,7 +960,7 @@ body{
 
                         label[for=prenom]{
                             width: 300px;
-                            margin-right: 20px;
+                            margin-right: 10px;
 
                             input{
                                 width: 100%;
@@ -971,7 +970,7 @@ body{
 
                         label[for=nom]{
                             width: 300px;
-                            margin-right: 20px;
+                            margin-right: 10px;
                             input{
                                 width: 100%;
                                 margin-top: 5px;
