@@ -617,8 +617,6 @@ body{
                 #recherche{
                     display: inline-flex;
                     float: right;
-                    position: relative;
-                    right: -30px;
                     
                     input[type='text']{
                         width: 200px;
@@ -633,6 +631,7 @@ body{
                         background: $bleuClair;
                         border: none;
                         color:white;
+                        margin-right: 0px;
                         
                         &:hover{
                             background:$bleuFonce; 
