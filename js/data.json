@@ -15,7 +15,7 @@
                 "site" : "https://www.linkedin.com/pub/damien-b%C3%A9cret/26/7b/b83"
             }
         ],
-        "couv" : "imgs/realisations/arteos/couv.jpg",
+        "couv" : "imgs/realisations/arteos/2.jpg",
         "images": [
             {
                 "alt":"",
@@ -62,7 +62,7 @@
                 "lien" : "imgs/realisations/shopgun/3.jpg"
             }
         ],
-        "text": " Je fut engagé par le magasin Shop Gun dans le cadre de mon stage long MMI de l'IUT de Troyes pendant deux mois, puis un mois supplémentaire en CDD. Ma mission au sein de Shop Gun fut principalement la refonte du module SAV de leurs intranets. Sans cahier des charges, j'ai dû apprendre le fonctionnement de l'entreprise pour comprendre au mieux les attentes en termes de fonctionnalités et d'ergonomie. Je suis aussi chargé de connecter les nouvelles fonctionnalités intranet vers l'espace client de site public. Pour ce faire, je me suis occupé de refondre cet espace public d'après les instructions de M. Gregory Weber, responsable informatique du groupe.",
+        "text": " Je fus engagé par le magasin Shop Gun dans le cadre de mon stage long MMI de l'IUT de Troyes pendant deux mois, puis un mois supplémentaire en CDD. Ma mission au sein de Shop Gun fut principalement la refonte du module SAV de leurs intranets. Sans cahier des charges, j'ai dû apprendre le fonctionnement de l'entreprise pour comprendre au mieux les attentes en termes de fonctionnalités et d'ergonomie. Je suis aussi chargé de connecter les nouvelles fonctionnalités intranet vers l'espace client de site public. Pour ce faire, je me suis occupé de refondre cet espace public d'après les instructions de M. Gregory Weber, responsable informatique du groupe.",
         "link": "details.html",
         "categorie":"dev"
     },
@@ -99,81 +99,141 @@
                 "lien" : "imgs/realisations/zetruc/3.jpg"
             }
         ],
-        "text": "Je suis repéré par l'agence web Ze Truc pour mes illustrations. Intéréssés, nous collaborons sur le projet 'Livert Eco-Guide' du foyer rémois de la ville de Reims. Ce livret à vocation d'enseigner les bonnes pratiques pour préserver la planète. J'ai illustré ce guide avec plusieurs illustrations contenant deux personnages en couleur, intégrant parfois quelques éléments de décors. Aurélia Rogé s'est chargé de la communication avec le client et Florian Meirhaeghe de la mise en page.",
+        "text": "Je suis repéré par l'agence web Ze Truc pour mes illustrations. Intéréssés, nous collaborons sur le projet 'Livert Eco-Guide' du foyer rémois de la ville de Reims. Ce livret a vocation d'enseigner les bonnes pratiques pour préserver la planète. J'ai illustré ce guide avec plusieurs illustrations contenant deux personnages en couleur, intégrant parfois quelques éléments de décors. Aurélia Rogé s'est chargé de la communication avec le client et Florian Meirhaeghe de la mise en page.",
         "link": "details.html",
         "categorie":"illu"
     },
     {
         "id": 3,
-        "nom": "Ze Truc - Eco Guide",
-        "site":"http://www.zetruc.fr/",
-        "date": "2015",
-        "role": "Illustrateur",
+        "nom": "Ponctuation ??!",
+        "site":"https://soundcloud.com/ponctuation-1",
+        "date": "2012",
+        "role": "Bassiste",
         "colaborateurs": [
             {
-                "id" : "Aurélia Rogé",
-                "site" : "http://www.zetruc.fr/lagence/"  
+                "id" : "Florian Mulot",
+                "site" : ""  
             },
             
             {
-                "id" : "Florian Meirhaeghe",
-                "site" : "http://www.zetruc.fr/lagence/"  
+                "id" : "Thibaut Paris",
+                "site" : ""  
             }
         ],
-        "couv" : "imgs/realisations/zetruc/couv.jpg",
+        "couv" : "imgs/realisations/ponctuation/couv.jpg",
         "images": [
             {
                 "alt":"image",
-                "lien" : "imgs/realisations/zetruc/1.jpg"
+                "lien" : "imgs/realisations/ponctuation/1.jpg"
             },
             {
                 "alt":"",
-                "lien" : "imgs/realisations/zetruc/couv.jpg"
+                "lien" : "imgs/realisations/ponctuation/2.jpg"
             },
             {
                 "alt":"",
-                "lien" : "imgs/realisations/zetruc/3.jpg"
+                "lien" : "imgs/realisations/ponctuation/3.jpg"
             }
         ],
-        "text": "Je suis repéré par l'agence web Ze Truc pour mes illustrations. Intéréssés, nous collaborons sur le projet 'Livert Eco-Guide' du foyer rémois de la ville de Reims. Ce livret à vocation d'enseigner les bonnes pratiques pour préserver la planète. J'ai illustré ce guide avec plusieurs illustrations contenant deux personnages en couleur, intégrant parfois quelques éléments de décors. Aurélia Rogé s'est chargé de la communication avec le client et Florian Meirhaeghe de la mise en page.",
+        "text": "J'étudie en 2012 en première année de Musicologie à l'Université de Reims. La formation étant trop théorique, je décide de me consacrer à mes différents projets musicaux.Avec mes amis Florian Mulot et Thibaut Paris nous formons le groupe 'Ponctuation ?!!'. Nous développons notre propre style de musique, mélange entre le rock la funk et d'autres choses. Lors de nos concerte cette année, nous expérimentons notre capacité à improviser pendant nos morceaux, comme pour le jazz, ce qu'il fait que nos concert étaient tous différents. Nous nous séparons en 2013 pour se consacrer à nos projets respectifs. Cliquez sur 'accedez au site' pour écouter nos enregistrements. ",
+        "link": "details.html",
+        "categorie":"musique"
+    },
+    {
+        "id": 4,
+        "nom": "BD '2 français au québec'",
+        "site":"http://2francaisauquebec.fr/",
+        "date": "2014",
+        "role": "Illustrateur",
+        "colaborateurs": [
+            {
+                "id" : "Aucun",
+                "site" : ""  
+            }
+        ],
+        "couv" : "imgs/realisations/bd_2francaisauquebec/couv.jpg",
+        "images": [
+            {
+                "alt":"image",
+                "lien" : "imgs/realisations/bd_2francaisauquebec/1.jpg"
+            },
+            {
+                "alt":"",
+                "lien" : "imgs/realisations/bd_2francaisauquebec/2.jpg"
+            },
+            {
+                "alt":"",
+                "lien" : "imgs/realisations/bd_2francaisauquebec/3.jpg"
+            }
+        ],
+        "text": "Grâce à mes efforts et au partenariat de l'IUT de Troyes, je suis sélectionné pour effectuer mon 3 ème semestre de mon DUT MMI. Je profite de ce semestre pour dessiner mes aventures vécues au Québec en BD. Cette BD disponible sur internet a pour but de donner des nouvelles à nos proches. Cependant, le projet prit de l'ampleur. Il est maintenant suivi par de nombreuses familles Québécoises et Francaises, mais aussi par de nombreux expatriés. La BD est toujours en cours de réalisation et je l'espère sera un jour adaptée au format papier.",
         "link": "details.html",
         "categorie":"illu"
     },
     {
-        "id": 4,
-        "nom": "Ze Truc - Eco Guide",
-        "site":"http://www.zetruc.fr/",
+        "id": 5,
+        "nom": "Exercice site IUT MMI",
+        "site":"imgs/realisations/exommi/index.html",
         "date": "2015",
-        "role": "Illustrateur",
+        "role": "Développeur Front",
         "colaborateurs": [
             {
-                "id" : "Aurélia Rogé",
-                "site" : "http://www.zetruc.fr/lagence/"  
+                "id" : "Benjamin Vadot",
+                "site" : "http://www.deadwater.fr/le-studio/"  
             },
-            
             {
-                "id" : "Florian Meirhaeghe",
-                "site" : "http://www.zetruc.fr/lagence/"  
+                "id" : "Ludovic Fauchet",
+                "site" : "http://www.fauchet-ludovic.fr/"  
             }
         ],
-        "couv" : "imgs/realisations/zetruc/couv.jpg",
+        "couv" : "imgs/realisations/exommi/couv.jpg",
         "images": [
             {
                 "alt":"image",
-                "lien" : "imgs/realisations/zetruc/1.jpg"
+                "lien" : "imgs/realisations/exommi/1.jpg"
             },
             {
                 "alt":"",
-                "lien" : "imgs/realisations/zetruc/couv.jpg"
+                "lien" : "imgs/realisations/exommi/couv.jpg"
             },
             {
                 "alt":"",
-                "lien" : "imgs/realisations/zetruc/3.jpg"
+                "lien" : "imgs/realisations/exommi/2.jpg"
             }
         ],
-        "text": "Je suis repéré par l'agence web Ze Truc pour mes illustrations. Intéréssés, nous collaborons sur le projet 'Livert Eco-Guide' du foyer rémois de la ville de Reims. Ce livret à vocation d'enseigner les bonnes pratiques pour préserver la planète. J'ai illustré ce guide avec plusieurs illustrations contenant deux personnages en couleur, intégrant parfois quelques éléments de décors. Aurélia Rogé s'est chargé de la communication avec le client et Florian Meirhaeghe de la mise en page.",
+        "text": "Dans le cadre du 4 ème semestre du DUT MMI, je choisi de me spécialiser en 'développement front'. Grâce au cours donnés par Ludovic Fauchet, j'ai appris à utiliser les technologies SAAS / COMPASS, des animations CSS3, les sprites... J'ai aussi appris à rendre un site 'responsive', c'est-à-dire adaptable sur tout type d'écran: ordinateurs, tablettes et téléphones. L'exercice présenté ici consistait a réaliser un site d'après la maquette de Benjamin Vadot. Ce site fictif est un site de réservation d'hôtel en ligne, utilisable sur tous les supports. N'hésitez pas à recadrer la fenêtre de votre navigateur en visitant le lien ci-dessou pour apprécier le résultat.",
         "link": "details.html",
-        "categorie":"illu"
+        "categorie":"dev"
+    },
+    {
+        "id": 6,
+        "nom": "Site '2 français au québec' ",
+        "site":"http://2francaisauquebec.fr/",
+        "date": "2015",
+        "role": "Développeur Front",
+        "colaborateurs": [
+            {
+                "id" : "Aucun",
+                "site" : ""  
+            }
+        ],
+        "couv" : "imgs/realisations/site_2francaisauquebec/couv.jpg",
+        "images": [
+            {
+                "alt":"image",
+                "lien" : "imgs/realisations/site_2francaisauquebec/1.jpg"
+            },
+            {
+                "alt":"",
+                "lien" : "imgs/realisations/site_2francaisauquebec/couv.jpg"
+            },
+            {
+                "alt":"",
+                "lien" : "imgs/realisations/site_2francaisauquebec/2.jpg"
+            }
+        ],
+        "text": "Grâce à mes efforts et au partenariat de l'IUT de Troyes, je suis sélectionné pour effectuer mon 3 ème semestre de mon DUT MMI. Je profite de ce semestre pour dessiner mes aventures vécues au Québec en BD. Dans un premier temps hébergé via le CMS blogger, je décide de développer mon propre site. Pour ce faire, j'utilise SAAS/COMPASS ainsi qu'angular.js qui offre un systeme de routage et de filtre très poussé. Grâce à ces technologies, le site est totalement fonctionnel sur tout supports (ordinateurs, tablettes,téléphones) pour une lecture optimale dans nimporte quelles configuration. N'hésitez pas à recadrer la fenêtre de votre navigateur en visitant le lien ci-dessou, mais aussi à utiliser les options de tri pour apprécier le résultat.",
+        "link": "details.html",
+        "categorie":"dev"
     }
-    
 ]

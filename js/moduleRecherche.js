@@ -16,7 +16,7 @@ app.config(['$routeProvider', function ($routeProvider) {
 app.controller('RechercheController', ['$scope', 'RechercheFactory', function ($scope, RechercheFactory) {
     
     
-    $scope.compteur = 3,
+    $scope.compteur = 6,
     
         
     $scope.mesRealisations=RechercheFactory.getmesRealisations()
@@ -36,7 +36,7 @@ app.controller('RechercheController', ['$scope', 'RechercheFactory', function ($
     );
     
     $scope.all = function () {
-        $scope.compteur=3;
+        $scope.compteur=6;
         $scope.filterRealisations=$scope.mesRealisations;
     };
     
@@ -51,7 +51,7 @@ app.controller('RechercheController', ['$scope', 'RechercheFactory', function ($
     };
     
     $scope.illu = function () {
-        $scope.compteur=3;
+        $scope.compteur=6;
         $scope.filterRealisations =[];
         for (var i = 0; i < $scope.mesRealisations.length; i++) {
             if($scope.mesRealisations[i]['categorie'] == 'illu'){
@@ -61,7 +61,7 @@ app.controller('RechercheController', ['$scope', 'RechercheFactory', function ($
     };
     
     $scope.musique = function () {
-        $scope.compteur=3;
+        $scope.compteur=6;
         $scope.filterRealisations =[];
         for (var i = 0; i < $scope.mesRealisations.length; i++) {
             if($scope.mesRealisations[i]['categorie'] == 'musique'){
@@ -86,8 +86,8 @@ app.controller('RechercheController', ['$scope', 'RechercheFactory', function ($
     
     $scope.countMoins = function() {
         $scope.compteur = $scope.compteur - 3;
-        if($scope.compteur < 3){
-            $scope.compteur = 3;
+        if($scope.compteur < 6){
+            $scope.compteur = 6;
         }
     }
     
