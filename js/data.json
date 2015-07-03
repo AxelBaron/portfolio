@@ -135,7 +135,7 @@
                 "lien" : "imgs/realisations/ponctuation/3.jpg"
             }
         ],
-        "text": "J'étudie en 2012 en première année de Musicologie à l'Université de Reims. La formation étant trop théorique, je décide de me consacrer à mes différents projets musicaux.Avec mes amis Florian Mulot et Thibaut Paris nous formons le groupe 'Ponctuation ?!!'. Nous développons notre propre style de musique, mélange entre le rock la funk et d'autres choses. Lors de nos concerte cette année, nous expérimentons notre capacité à improviser pendant nos morceaux, comme pour le jazz, ce qu'il fait que nos concert étaient tous différents. Nous nous séparons en 2013 pour se consacrer à nos projets respectifs. Cliquez sur 'accedez au site' pour écouter nos enregistrements. ",
+        "text": "J'étudie en 2012 en première année de Musicologie à l'Université de Reims. La formation étant trop théorique, je décide de me consacrer à mes différents projets musicaux.Avec mes amis Florian Mulot et Thibaut Paris nous formons le groupe 'Ponctuation ?!!'. Nous développons notre propre style de musique, mélange entre le rock la funk et d'autres choses. Lors de nos concerts cette année, nous expérimentons notre capacité à improviser pendant nos morceaux, comme pour le jazz, rendant chaque soirées uniques. Nous nous séparons en 2013 pour se consacrer à nos projets respectifs. Cliquez sur 'accedez au site' pour écouter nos enregistrements. ",
         "link": "details.html",
         "categorie":"musique"
     },
@@ -201,7 +201,7 @@
                 "lien" : "imgs/realisations/exommi/2.jpg"
             }
         ],
-        "text": "Dans le cadre du 4 ème semestre du DUT MMI, je choisi de me spécialiser en 'développement front'. Grâce au cours donnés par Ludovic Fauchet, j'ai appris à utiliser les technologies SAAS / COMPASS, des animations CSS3, les sprites... J'ai aussi appris à rendre un site 'responsive', c'est-à-dire adaptable sur tout type d'écran: ordinateurs, tablettes et téléphones. L'exercice présenté ici consistait a réaliser un site d'après la maquette de Benjamin Vadot. Ce site fictif est un site de réservation d'hôtel en ligne, utilisable sur tous les supports. N'hésitez pas à recadrer la fenêtre de votre navigateur en visitant le lien ci-dessou pour apprécier le résultat.",
+        "text": "Dans le cadre du 4 ème semestre du DUT MMI, je choisis de me spécialiser en 'développement front'. Grâce au cours donnés par Ludovic Fauchet, j'ai appris à utiliser les technologies SAAS / COMPASS, des animations CSS3, les sprites... J'ai aussi appris à rendre un site 'responsive', c'est-à-dire adaptable sur tout type d'écran: ordinateurs, tablettes et téléphones. L'exercice présenté ici consistait a réaliser un site d'après la maquette de Benjamin Vadot. Ce site fictif est un site de réservation d'hôtel en ligne, utilisable sur tous les supports. N'hésitez pas à recadrer la fenêtre de votre navigateur en visitant le lien ci-dessou pour apprécier le résultat.",
         "link": "details.html",
         "categorie":"dev"
     },
@@ -232,7 +232,7 @@
                 "lien" : "imgs/realisations/site_2francaisauquebec/2.jpg"
             }
         ],
-        "text": "Grâce à mes efforts et au partenariat de l'IUT de Troyes, je suis sélectionné pour effectuer mon 3 ème semestre de mon DUT MMI. Je profite de ce semestre pour dessiner mes aventures vécues au Québec en BD. Dans un premier temps hébergé via le CMS blogger, je décide de développer mon propre site. Pour ce faire, j'utilise SAAS/COMPASS ainsi qu'angular.js qui offre un systeme de routage et de filtre très poussé. Grâce à ces technologies, le site est totalement fonctionnel sur tout supports (ordinateurs, tablettes,téléphones) pour une lecture optimale dans nimporte quelles configuration. N'hésitez pas à recadrer la fenêtre de votre navigateur en visitant le lien ci-dessou, mais aussi à utiliser les options de tri pour apprécier le résultat.",
+        "text": "Grâce à mes efforts et au partenariat de l'IUT de Troyes, je suis sélectionné pour effectuer mon 3 ème semestre de mon DUT MMI. Je profite de ce semestre pour dessiner mes aventures vécues au Québec en BD. Dans un premier temps hébergé via le CMS blogger, je décide de développer mon propre site. Pour ce faire, j'utilise SAAS/COMPASS ainsi qu'angular.js qui offre un systeme de routage et de filtre très poussé. Grâce à ces technologies, le site est totalement fonctionnel sur tous supports (ordinateurs, tablettes,téléphones) pour une lecture optimale dans nimporte quelles configurations. N'hésitez pas à recadrer la fenêtre de votre navigateur en visitant le lien ci-dessous, mais aussi à utiliser les options de tri pour apprécier le résultat.",
         "link": "details.html",
         "categorie":"dev"
     }
